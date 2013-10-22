@@ -8,7 +8,7 @@
   "author": "Stephen Mathieson <me@stephenmathieson.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stephenmathieson/tlds.git"
+    "url": "git://github.com/stephenmathieson/node-tlds.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -17,7 +17,7 @@
   },
   "main": "index",
   "bugs": {
-    "url": "https://github.com/stephenmathieson/tlds/issues"
+    "url": "https://github.com/stephenmathieson/node-tlds/issues"
   },
   "scripts": {
     "test": "node test.js"
