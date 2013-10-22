@@ -1,6 +1,6 @@
 {
   "name": "tlds",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "List of TLDs",
   "keywords": [
     "tld", "tlds", "top", "level", "domains"
