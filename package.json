@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "List of TLDs",
   "keywords": [
-    "tld", "tlds", "top", "level", "domains"
+    "data", "tld", "tlds", "top", "level", "domains"
   ],
   "author": "Stephen Mathieson <me@stephenmathieson.com>",
   "repository": {
