@@ -1,22 +1,18 @@
 
 var request = require('superagent');
-var cheerio = require('cheerio');
 var fs = require('fs');
 
-var url = process.argv[2]
-    || 'http://en.wikipedia.org/wiki/List_of_Internet_top-level_domains';
-
+var url = process.argv[2] || 'http://data.iana.org/TLD/tlds-alpha-by-domain.txt';
 
 request.get(url).end(function (err, res) {
   if (err) throw err;
 
-  var $ = cheerio.load(res.text);
-  var links = $('table.wikitable.sortable td:first-child a[title]');
   var tlds = [];
 
-  links.each(function () {
-    var title = this.attr('title');
-    if (/\.([a-z]+)/i.exec(title)) tlds.push(RegExp.$1);
+  res.text.split('\n').forEach(function (line) {
+    line = line.trim().toLowerCase();
+    if ('#' === line[0]) return;
+    if (line.length > 0) tlds.push(line);
   });
 
   tlds = tlds.sort();
