@@ -529,70 +529,70 @@ module.exports = [
   "ws",
   "wtc",
   "wtf",
-  "xn--3bst00m",
-  "xn--3ds443g",
-  "xn--3e0b707e",
-  "xn--45brj9c",
-  "xn--4gbrim",
-  "xn--55qw42g",
-  "xn--55qx5d",
-  "xn--6frz82g",
-  "xn--6qq986b3xl",
-  "xn--80adxhks",
-  "xn--80ao21a",
-  "xn--80asehdb",
-  "xn--80aswg",
-  "xn--90a3ac",
-  "xn--c1avg",
-  "xn--cg4bki",
-  "xn--clchc0ea0b2g2a9gcd",
-  "xn--czr694b",
-  "xn--czru2d",
-  "xn--d1acj3b",
-  "xn--fiq228c5hs",
-  "xn--fiq64b",
-  "xn--fiqs8s",
-  "xn--fiqz9s",
-  "xn--fpcrj9c3d",
-  "xn--fzc2c9e2c",
-  "xn--gecrj9c",
-  "xn--h2brj9c",
-  "xn--i1b6b1a6a2e",
-  "xn--io0a7i",
-  "xn--j1amh",
-  "xn--j6w193g",
-  "xn--kprw13d",
-  "xn--kpry57d",
-  "xn--l1acc",
-  "xn--lgbbat1ad8j",
-  "xn--mgb9awbf",
-  "xn--mgba3a4f16a",
-  "xn--mgbaam7a8h",
-  "xn--mgbab2bd",
-  "xn--mgbayh7gpa",
-  "xn--mgbbh1a71e",
-  "xn--mgbc0a9azcg",
-  "xn--mgberp4a5d4ar",
-  "xn--mgbx4cd0ab",
-  "xn--ngbc5azd",
-  "xn--nqv7f",
-  "xn--nqv7fs00ema",
-  "xn--o3cw4h",
-  "xn--ogbpf8fl",
-  "xn--p1ai",
-  "xn--pgbs0dh",
-  "xn--q9jyb4c",
-  "xn--rhqv96g",
-  "xn--s9brj9c",
-  "xn--ses554g",
-  "xn--unup4y",
-  "xn--wgbh1c",
-  "xn--wgbl6a",
-  "xn--xkc2al3hye2a",
-  "xn--xkc2dl3a5ee0h",
-  "xn--yfro4i67o",
-  "xn--ygbi2ammx",
-  "xn--zfr164b",
+  "集团", // xn--3bst00m
+  "在线", // xn--3ds443g
+  "한국", // xn--3e0b707e
+  "ভারত", // xn--45brj9c
+  "موقع", // xn--4gbrim
+  "公益", // xn--55qw42g
+  "公司", // xn--55qx5d
+  "移动", // xn--6frz82g
+  "我爱你", // xn--6qq986b3xl
+  "москва", // xn--80adxhks
+  "қаз", // xn--80ao21a
+  "онлайн", // xn--80asehdb
+  "сайт", // xn--80aswg
+  "срб", // xn--90a3ac
+  "орг", // xn--c1avg
+  "삼성", // xn--cg4bki
+  "சிங்கப்பூர்", // xn--clchc0ea0b2g2a9gcd
+  "商标", // xn--czr694b
+  "商城", // xn--czru2d
+  "дети", // xn--d1acj3b
+  "中文网", // xn--fiq228c5hs
+  "中信", // xn--fiq64b
+  "中国", // xn--fiqs8s
+  "中國", // xn--fiqz9s
+  "భారత్", // xn--fpcrj9c3d
+  "ලංකා", // xn--fzc2c9e2c
+  "ભારત", // xn--gecrj9c
+  "भारत", // xn--h2brj9c
+  "संगठन", // xn--i1b6b1a6a2e
+  "网络", // xn--io0a7i
+  "укр", // xn--j1amh
+  "香港", // xn--j6w193g
+  "台湾", // xn--kprw13d
+  "台灣", // xn--kpry57d
+  "мон", // xn--l1acc
+  "الجزائر", // xn--lgbbat1ad8j
+  "عمان", // xn--mgb9awbf
+  "ایران", // xn--mgba3a4f16a
+  "امارات", // xn--mgbaam7a8h
+  "بازار", // xn--mgbab2bd
+  "الاردن", // xn--mgbayh7gpa
+  "بھارت", // xn--mgbbh1a71e
+  "المغرب", // xn--mgbc0a9azcg
+  "السعودية", // xn--mgberp4a5d4ar
+  "مليسيا", // xn--mgbx4cd0ab
+  "شبكة", // xn--ngbc5azd
+  "机构", // xn--nqv7f
+  "组织机构", // xn--nqv7fs00ema
+  "ไทย", // xn--o3cw4h
+  "سورية", // xn--ogbpf8fl
+  "рф", // xn--p1ai
+  "تونس", // xn--pgbs0dh
+  "みんな", // xn--q9jyb4c
+  "世界", // xn--rhqv96g
+  "ਭਾਰਤ", // xn--s9brj9c
+  "网址", // xn--ses554g
+  "游戏", // xn--unup4y
+  "مصر", // xn--wgbh1c
+  "قطر", // xn--wgbl6a
+  "இலங்கை", // xn--xkc2al3hye2a
+  "இந்தியா", // xn--xkc2dl3a5ee0h
+  "新加坡", // xn--yfro4i67o
+  "فلسطين", // xn--ygbi2ammx
+  "政务", // xn--zfr164b
   "xxx",
   "xyz",
   "yachts",
