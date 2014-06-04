@@ -12,8 +12,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "superagent": "~0.15.7",
-    "cheerio": "~0.12.3"
+    "superagent": "~0.15.7"
   },
   "main": "index",
   "bugs": {
