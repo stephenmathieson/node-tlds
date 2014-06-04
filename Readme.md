@@ -1,7 +1,7 @@
 
 # tlds
 
-  List of TLDs, scaped from [ICANN](https://www.icann.org/resources/pages/tlds-2012-02-25-en)
+  List of TLDs, scraped from [ICANN](https://www.icann.org/resources/pages/tlds-2012-02-25-en)
 
 ## License
 
