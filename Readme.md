@@ -1,9 +1,9 @@
 
 # tlds
 
-  List of TLDs, scaped from [Wikipedia](http://en.wikipedia.org/wiki/List_of_Internet_top-level_domains)
+  List of TLDs, scaped from [ICANN](https://www.icann.org/resources/pages/tlds-2012-02-25-en)
 
-## License 
+## License
 
 (The MIT License)
 
