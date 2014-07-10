@@ -11,10 +11,12 @@
  * index: update list of TLDs
  * ignore test.js in npm
 
-# 0.0.2
+0.0.2 / 2013-10-22
+==================
 
-  * Fix repo in `package.json`
+ * Fix repo in `package.json`
 
-# 0.0.1
+0.0.1 / 2013-10-22
+==================
 
-  * Initial release
+ * Initial release
