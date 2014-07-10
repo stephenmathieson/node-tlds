@@ -1,4 +1,11 @@
 
+1.0.1 / 2014-07-10
+==================
+
+ * index: update list from ICANN
+ * package: add "data" keyword
+ * package: Remove cheerio dev dep
+
 1.0.0 / 2014-06-04
 ==================
 
