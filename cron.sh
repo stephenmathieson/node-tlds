@@ -15,15 +15,24 @@ npm test
 TESTS_PASS=$?
 
 if [ DIRTY=1 ] && [ TESTS_PASS=0 ]; then
+  # commit the changes to the `index.js` file
   git add index.js
   git commit -m "index: update list from ICANN"
   VERSION=$($NODE -p "require('./package').version")
   INCREMENT=$($SEMVER --increment minor $VERSION)
+
+  # update changelog
   git changelog
+  sed -i.bak "s/n.n.n/$INCREMENT/" History.md
+  rm History.md.bak
+
+  # update package.json verison number
   $(NODE) -p "var fs = require('fs'); \
     var json = require('./package');\
     json.version = '$INCREMENT';\
     fs.writeFileSync('package.json', JSON.stringify(json, null, 2) + '\n');"
+
+  # stage files and publish the new tag to git and npm
   git add History.md package.json
   git release $INCREMENT
   npm publish
