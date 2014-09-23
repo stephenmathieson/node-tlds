@@ -14,7 +14,7 @@ DIRTY=$?
 npm test
 TESTS_PASS=$?
 
-if [ DIRTY=1 && TESTS_PASS=0 ]; then
+if [ DIRTY=1 ] && [ TESTS_PASS=0 ]; then
   git add index.js
   git commit -m "index: update list from ICANN"
   VERSION=$($NODE -p "require('./package').version")
