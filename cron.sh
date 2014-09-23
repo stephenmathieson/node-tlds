@@ -1,8 +1,14 @@
 #!/bin/sh
 
-BIN=$(npm bin)
-NODE="node"
-SEMVER="$NODE $BIN/semver"
+if [ "x$NODE" = "x" ]; then
+  NODE="node"
+fi
+if [ "x$NPM" = "x" ]; then
+  NPM=$(which npm)
+fi
+if [ "x$SEMVER" = "x" ]; then
+  SEMVER="$NODE $($NPM bin)/semver"
+fi
 
 # update `index.js`
 node update
