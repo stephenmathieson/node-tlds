@@ -11,7 +11,10 @@ node update
 git diff-files --quiet
 DIRTY=$?
 
-if [ DIRTY=1 ]; then
+npm test
+TESTS_PASS=$?
+
+if [ DIRTY=1 && TESTS_PASS=0 ]; then
   git add index.js
   git commit -m "index: update list from ICANN"
   VERSION=$($NODE -p "require('./package').version")
