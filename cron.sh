@@ -11,14 +11,14 @@ if [ "x$SEMVER" = "x" ]; then
 fi
 
 # update `index.js`
-$NODE update
+$NODE update >/dev/null
 
 # check if the working tree is "dirty"
 git diff --quiet index.js
 DIRTY=$?
 
 # make sure the tests still pass
-$NPM test
+$NPM test >/dev/null 2>&1
 TESTS_PASS=$?
 
 if [ $DIRTY = "1" ] && [ $TESTS_PASS = "0" ]; then
