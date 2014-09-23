@@ -8,13 +8,14 @@ SEMVER="$NODE $BIN/semver"
 node update
 
 # check if the working tree is "dirty"
-git diff-files --quiet
+git diff --quiet index.js
 DIRTY=$?
 
+# make sure the tests still pass
 npm test
 TESTS_PASS=$?
 
-if [ DIRTY=1 ] && [ TESTS_PASS=0 ]; then
+if [ $DIRTY = "1" ] && [ $TESTS_PASS = "0" ]; then
   # commit the changes to the `index.js` file
   git add index.js
   git commit -m "index: update list from ICANN"
@@ -28,8 +29,8 @@ if [ DIRTY=1 ] && [ TESTS_PASS=0 ]; then
 
   # update package.json verison number
   $(NODE) -p "var fs = require('fs'); \
-    var json = require('./package');\
-    json.version = '$INCREMENT';\
+    var json = require('./package'); \
+    json.version = '$INCREMENT'; \
     fs.writeFileSync('package.json', JSON.stringify(json, null, 2) + '\n');"
 
   # stage files and publish the new tag to git and npm
