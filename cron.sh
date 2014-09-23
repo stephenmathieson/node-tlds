@@ -11,14 +11,14 @@ if [ "x$SEMVER" = "x" ]; then
 fi
 
 # update `index.js`
-node update
+$NODE update
 
 # check if the working tree is "dirty"
 git diff --quiet index.js
 DIRTY=$?
 
 # make sure the tests still pass
-npm test
+$NPM test
 TESTS_PASS=$?
 
 if [ $DIRTY = "1" ] && [ $TESTS_PASS = "0" ]; then
@@ -42,5 +42,5 @@ if [ $DIRTY = "1" ] && [ $TESTS_PASS = "0" ]; then
   # stage files and publish the new tag to git and npm
   git add History.md package.json
   git release $INCREMENT
-  npm publish
+  $NPM publish
 fi;
