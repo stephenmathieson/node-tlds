@@ -1,4 +1,16 @@
 
+1.1.0 / 2014-09-23
+==================
+
+ * cron: update the History.md version number
+ * cron: update changelog and package.json version number
+ * index: update list from ICANN
+ * cron: fix bash `and` check syntax
+ * cron: run `npm test` before committing
+ * cron: use local bin variables
+ * add `cron.sh` automated update script
+ * package: add "semver" as a dev dependency
+
 1.0.2 / 2014-09-10
 ==================
 
