@@ -1,4 +1,18 @@
 
+1.2.0 / 2014-09-24
+==================
+
+  * index: update list from ICANN
+  * cron: use -e node eval
+  * cron: fix again...
+  * cron: be silent most of the time
+  * cron: more variable usage
+  * cron: make the bin variables be overriable from the env
+  * cron: fix it finally I hope
+  * Release 1.1.0
+  * cron: update the History.md version number
+  * cron: update changelog and package.json version number
+
 1.1.0 / 2014-09-23
 ==================
 
