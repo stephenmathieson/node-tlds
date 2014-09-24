@@ -9,9 +9,6 @@
   * cron: more variable usage
   * cron: make the bin variables be overriable from the env
   * cron: fix it finally I hope
-  * Release 1.1.0
-  * cron: update the History.md version number
-  * cron: update changelog and package.json version number
 
 1.1.0 / 2014-09-23
 ==================
