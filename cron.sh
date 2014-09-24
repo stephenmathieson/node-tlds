@@ -34,7 +34,7 @@ if [ $DIRTY = "1" ] && [ $TESTS_PASS = "0" ]; then
   rm History.md.bak
 
   # update package.json verison number
-  $NODE -p "var fs = require('fs'); \
+  $NODE -e "var fs = require('fs'); \
     var json = require('./package'); \
     json.version = '$INCREMENT'; \
     fs.writeFileSync('package.json', JSON.stringify(json, null, 2) + '\n');"
