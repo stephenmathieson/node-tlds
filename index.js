@@ -174,6 +174,7 @@ module.exports = [
   "do",
   "domains",
   "durban",
+  "dvag",
   "dz",
   "eat",
   "ec",
@@ -461,6 +462,7 @@ module.exports = [
   "plumbing",
   "pm",
   "pn",
+  "pohl",
   "post",
   "pr",
   "praxi",
@@ -584,6 +586,7 @@ module.exports = [
   "training",
   "travel",
   "tt",
+  "tui",
   "tv",
   "tw",
   "tz",
@@ -687,6 +690,7 @@ module.exports = [
   "组织机构", // xn--nqv7fs00ema
   "ไทย", // xn--o3cw4h
   "سورية", // xn--ogbpf8fl
+  "рус", // xn--p1acf
   "рф", // xn--p1ai
   "تونس", // xn--pgbs0dh
   "みんな", // xn--q9jyb4c
@@ -694,6 +698,8 @@ module.exports = [
   "ਭਾਰਤ", // xn--s9brj9c
   "网址", // xn--ses554g
   "游戏", // xn--unup4y
+  "vermögensberater", // xn--vermgensberater-ctb
+  "vermögensberatung", // xn--vermgensberatung-pwb
   "企业", // xn--vhquv
   "مصر", // xn--wgbh1c
   "قطر", // xn--wgbl6a
