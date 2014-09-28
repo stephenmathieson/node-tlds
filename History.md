@@ -1,4 +1,10 @@
 
+1.3.0 / 2014-09-28
+==================
+
+  * index: update list from ICANN
+  * History: remove junk
+
 1.2.0 / 2014-09-24
 ==================
 
