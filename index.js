@@ -15,6 +15,7 @@ module.exports = [
   "airforce",
   "al",
   "allfinanz",
+  "alsace",
   "am",
   "an",
   "ao",
