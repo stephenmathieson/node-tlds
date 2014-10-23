@@ -188,6 +188,7 @@ module.exports = [
   "ee",
   "eg",
   "email",
+  "emerck",
   "engineer",
   "engineering",
   "enterprises",
