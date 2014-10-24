@@ -566,6 +566,7 @@ module.exports = [
   "sy",
   "systems",
   "sz",
+  "taipei",
   "tatar",
   "tattoo",
   "tax",
