@@ -672,6 +672,7 @@ module.exports = [
   "商标", // xn--czr694b
   "商城", // xn--czru2d
   "дети", // xn--d1acj3b
+  "мкд", // xn--d1alf
   "中文网", // xn--fiq228c5hs
   "中信", // xn--fiq64b
   "中国", // xn--fiqs8s
@@ -699,6 +700,7 @@ module.exports = [
   "السعودية", // xn--mgberp4a5d4ar
   "مليسيا", // xn--mgbx4cd0ab
   "شبكة", // xn--ngbc5azd
+  "გე", // xn--node
   "机构", // xn--nqv7f
   "组织机构", // xn--nqv7fs00ema
   "ไทย", // xn--o3cw4h
