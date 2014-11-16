@@ -532,6 +532,7 @@ module.exports = [
   "scb",
   "schmidt",
   "schule",
+  "science",
   "scot",
   "sd",
   "se",
