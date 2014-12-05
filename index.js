@@ -22,6 +22,7 @@ module.exports = [
   "android",
   "ao",
   "aq",
+  "aquarelle",
   "ar",
   "archi",
   "army",
@@ -128,6 +129,7 @@ module.exports = [
   "cm",
   "cn",
   "co",
+  "coach",
   "codes",
   "coffee",
   "college",
@@ -206,6 +208,7 @@ module.exports = [
   "eu",
   "eus",
   "events",
+  "everbank",
   "exchange",
   "expert",
   "exposed",
@@ -215,6 +218,7 @@ module.exports = [
   "fi",
   "finance",
   "financial",
+  "firmdale",
   "fish",
   "fishing",
   "fitness",
@@ -319,6 +323,7 @@ module.exports = [
   "io",
   "iq",
   "ir",
+  "irish",
   "is",
   "it",
   "je",
@@ -350,10 +355,13 @@ module.exports = [
   "la",
   "lacaixa",
   "land",
+  "latrobe",
   "lawyer",
   "lb",
   "lc",
+  "lds",
   "lease",
+  "legal",
   "lgbt",
   "li",
   "life",
@@ -375,6 +383,7 @@ module.exports = [
   "lv",
   "ly",
   "ma",
+  "madrid",
   "maison",
   "management",
   "mango",
@@ -387,6 +396,7 @@ module.exports = [
   "meet",
   "melbourne",
   "meme",
+  "memorial",
   "menu",
   "mg",
   "mh",
@@ -402,6 +412,8 @@ module.exports = [
   "moda",
   "moe",
   "monash",
+  "money",
+  "mormon",
   "mortgage",
   "moscow",
   "motorcycles",
@@ -687,10 +699,12 @@ module.exports = [
   "中信", // xn--fiq64b
   "中国", // xn--fiqs8s
   "中國", // xn--fiqz9s
+  "谷歌", // xn--flw351e
   "భారత్", // xn--fpcrj9c3d
   "ලංකා", // xn--fzc2c9e2c
   "ભારત", // xn--gecrj9c
   "भारत", // xn--h2brj9c
+  "网店", // xn--hxt814e
   "संगठन", // xn--i1b6b1a6a2e
   "网络", // xn--io0a7i
   "укр", // xn--j1amh
@@ -719,6 +733,7 @@ module.exports = [
   "рф", // xn--p1ai
   "تونس", // xn--pgbs0dh
   "みんな", // xn--q9jyb4c
+  "グーグル", // xn--qcka1pmc
   "世界", // xn--rhqv96g
   "ਭਾਰਤ", // xn--s9brj9c
   "网址", // xn--ses554g
