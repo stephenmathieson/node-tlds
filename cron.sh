@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export EDITOR=true
+
 if [ "x$NODE" = "x" ]; then
   NODE="node"
 fi
