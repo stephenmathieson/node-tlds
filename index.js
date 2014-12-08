@@ -7,6 +7,7 @@ module.exports = [
   "active",
   "actor",
   "ad",
+  "adult",
   "ae",
   "aero",
   "af",
@@ -206,6 +207,7 @@ module.exports = [
   "estate",
   "et",
   "eu",
+  "eurovision",
   "eus",
   "events",
   "everbank",
@@ -214,6 +216,7 @@ module.exports = [
   "exposed",
   "fail",
   "farm",
+  "fashion",
   "feedback",
   "fi",
   "finance",
@@ -491,6 +494,7 @@ module.exports = [
   "pn",
   "pohl",
   "poker",
+  "porn",
   "post",
   "pr",
   "praxi",
@@ -618,6 +622,7 @@ module.exports = [
   "trade",
   "training",
   "travel",
+  "trust",
   "tt",
   "tui",
   "tv",
@@ -692,6 +697,7 @@ module.exports = [
   "삼성", // xn--cg4bki
   "சிங்கப்பூர்", // xn--clchc0ea0b2g2a9gcd
   "商标", // xn--czr694b
+  "商店", // xn--czrs0t
   "商城", // xn--czru2d
   "дети", // xn--d1acj3b
   "мкд", // xn--d1alf
