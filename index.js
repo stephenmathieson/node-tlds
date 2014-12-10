@@ -543,6 +543,7 @@ module.exports = [
   "ryukyu",
   "sa",
   "saarland",
+  "samsung",
   "sarl",
   "sb",
   "sc",
