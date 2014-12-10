@@ -1,4 +1,10 @@
 
+1.17.0 / 2014-12-09
+==================
+
+  * index: update list from ICANN
+  * cron: force EDITOR to `true` program
+
 1.16.0 / 2014-12-08
 ==================
 
