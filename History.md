@@ -1,4 +1,10 @@
 
+1.18.0 / 2014-12-14
+==================
+
+  * index: update list from ICANN
+  * package: update dev dependencies
+
 1.17.0 / 2014-12-09
 ==================
 
