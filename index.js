@@ -575,6 +575,7 @@ module.exports = [
   "sh",
   "shiksha",
   "shoes",
+  "shriram",
   "si",
   "singles",
   "sj",
