@@ -376,6 +376,7 @@ module.exports = [
   "kred",
   "kw",
   "ky",
+  "kyoto",
   "kz",
   "la",
   "lacaixa",
