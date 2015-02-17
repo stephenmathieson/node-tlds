@@ -111,6 +111,7 @@ module.exports = [
   "cash",
   "cat",
   "catering",
+  "cbn",
   "cc",
   "cd",
   "center",
@@ -266,6 +267,7 @@ module.exports = [
   "gb",
   "gbiz",
   "gd",
+  "gdn",
   "ge",
   "gent",
   "gf",
@@ -741,6 +743,7 @@ module.exports = [
   "онлайн", // xn--80asehdb
   "сайт", // xn--80aswg
   "срб", // xn--90a3ac
+  "бел", // xn--90ais
   "淡马锡", // xn--b4w605ferd
   "орг", // xn--c1avg
   "삼성", // xn--cg4bki
