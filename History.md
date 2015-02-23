@@ -1,4 +1,11 @@
 
+1.29.0 / 2015-02-23
+==================
+
+  * index: update list from ICANN
+  * Release 1.28.0
+  * index: update list from ICANN
+
 1.28.0 / 2015-02-16
 ==================
 
