@@ -178,6 +178,7 @@ module.exports = [
   "dad",
   "dance",
   "dating",
+  "datsun",
   "day",
   "dclk",
   "de",
@@ -219,6 +220,7 @@ module.exports = [
   "engineer",
   "engineering",
   "enterprises",
+  "epson",
   "equipment",
   "er",
   "es",
@@ -294,6 +296,7 @@ module.exports = [
   "gmx",
   "gn",
   "goldpoint",
+  "goo",
   "goog",
   "google",
   "gop",
@@ -346,6 +349,7 @@ module.exports = [
   "immobilien",
   "in",
   "industries",
+  "infiniti",
   "info",
   "ing",
   "ink",
@@ -361,6 +365,7 @@ module.exports = [
   "is",
   "it",
   "iwc",
+  "java",
   "jcb",
   "je",
   "jetzt",
@@ -400,6 +405,7 @@ module.exports = [
   "lc",
   "lds",
   "lease",
+  "leclerc",
   "legal",
   "lgbt",
   "li",
@@ -425,6 +431,7 @@ module.exports = [
   "ly",
   "ma",
   "madrid",
+  "maif",
   "maison",
   "management",
   "mango",
@@ -465,6 +472,7 @@ module.exports = [
   "mr",
   "ms",
   "mt",
+  "mtpc",
   "mu",
   "museum",
   "mv",
@@ -490,6 +498,7 @@ module.exports = [
   "ni",
   "nico",
   "ninja",
+  "nissan",
   "nl",
   "no",
   "np",
@@ -506,6 +515,7 @@ module.exports = [
   "ong",
   "onl",
   "ooo",
+  "oracle",
   "org",
   "organic",
   "osaka",
@@ -789,6 +799,7 @@ module.exports = [
   "المغرب", // xn--mgbc0a9azcg
   "السعودية", // xn--mgberp4a5d4ar
   "مليسيا", // xn--mgbx4cd0ab
+  "政府", // xn--mxtq1m
   "شبكة", // xn--ngbc5azd
   "გე", // xn--node
   "机构", // xn--nqv7f
