@@ -1,5 +1,6 @@
 
 module.exports = [
+  "abbott",
   "abogado",
   "ac",
   "academy",
@@ -536,6 +537,7 @@ module.exports = [
   "photos",
   "physio",
   "pics",
+  "pictet",
   "pictures",
   "pink",
   "pizza",
@@ -745,6 +747,7 @@ module.exports = [
   "ws",
   "wtc",
   "wtf",
+  "xin",
   "佛山", // xn--1qqw23a
   "集团", // xn--3bst00m
   "在线", // xn--3ds443g
