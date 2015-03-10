@@ -1,4 +1,10 @@
 
+1.32.0 / 2015-03-09
+==================
+
+  * index: update list from ICANN
+  * index: update list from ICANN
+
 1.30.0 / 2015-03-01
 ==================
 
