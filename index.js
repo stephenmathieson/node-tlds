@@ -240,6 +240,7 @@ module.exports = [
   "expert",
   "exposed",
   "fail",
+  "fan",
   "fans",
   "farm",
   "fashion",
@@ -520,6 +521,7 @@ module.exports = [
   "one",
   "ong",
   "onl",
+  "online",
   "ooo",
   "oracle",
   "org",
@@ -528,6 +530,7 @@ module.exports = [
   "otsuka",
   "ovh",
   "pa",
+  "page",
   "paris",
   "partners",
   "parts",
@@ -541,6 +544,7 @@ module.exports = [
   "photography",
   "photos",
   "physio",
+  "piaget",
   "pics",
   "pictet",
   "pictures",
@@ -629,6 +633,7 @@ module.exports = [
   "shriram",
   "si",
   "singles",
+  "site",
   "sj",
   "sk",
   "sky",
@@ -828,6 +833,7 @@ module.exports = [
   "vermögensberater", // xn--vermgensberater-ctb
   "vermögensberatung", // xn--vermgensberatung-pwb
   "企业", // xn--vhquv
+  "信息", // xn--vuq861b
   "مصر", // xn--wgbh1c
   "قطر", // xn--wgbl6a
   "广东", // xn--xhq521b
