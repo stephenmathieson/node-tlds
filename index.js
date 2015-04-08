@@ -54,6 +54,7 @@ module.exports = [
   "barclaycard",
   "barclays",
   "bargains",
+  "bauhaus",
   "bayern",
   "bb",
   "bbc",
@@ -101,6 +102,7 @@ module.exports = [
   "bzh",
   "ca",
   "cab",
+  "cafe",
   "cal",
   "camera",
   "camp",
@@ -248,6 +250,7 @@ module.exports = [
   "exchange",
   "expert",
   "exposed",
+  "express",
   "fail",
   "faith",
   "fan",
@@ -834,6 +837,7 @@ module.exports = [
   "网络", // xn--io0a7i
   "укр", // xn--j1amh
   "香港", // xn--j6w193g
+  "飞利浦", // xn--kcrx77d1x4a
   "台湾", // xn--kprw13d
   "台灣", // xn--kpry57d
   "手机", // xn--kput3i
