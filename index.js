@@ -1,5 +1,6 @@
 
 module.exports = [
+  "abb",
   "abbott",
   "abogado",
   "ac",
