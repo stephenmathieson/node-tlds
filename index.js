@@ -5,6 +5,7 @@ module.exports = [
   "abogado",
   "ac",
   "academy",
+  "accenture",
   "accountant",
   "accountants",
   "active",
@@ -360,6 +361,7 @@ module.exports = [
   "hk",
   "hm",
   "hn",
+  "hockey",
   "holdings",
   "holiday",
   "homes",
@@ -531,6 +533,7 @@ module.exports = [
   "navy",
   "nc",
   "ne",
+  "nec",
   "net",
   "network",
   "neustar",
@@ -580,6 +583,7 @@ module.exports = [
   "pg",
   "ph",
   "pharmacy",
+  "philips",
   "photo",
   "photography",
   "photos",
@@ -648,6 +652,7 @@ module.exports = [
   "rsvp",
   "ru",
   "ruhr",
+  "run",
   "rw",
   "ryukyu",
   "sa",
@@ -725,6 +730,7 @@ module.exports = [
   "tatar",
   "tattoo",
   "tax",
+  "taxi",
   "tc",
   "td",
   "team",
@@ -736,6 +742,7 @@ module.exports = [
   "tf",
   "tg",
   "th",
+  "theater",
   "tickets",
   "tienda",
   "tips",
@@ -849,10 +856,12 @@ module.exports = [
   "商城", // xn--czru2d
   "дети", // xn--d1acj3b
   "мкд", // xn--d1alf
+  "工行", // xn--estv75g
   "中文网", // xn--fiq228c5hs
   "中信", // xn--fiq64b
   "中国", // xn--fiqs8s
   "中國", // xn--fiqz9s
+  "娱乐", // xn--fjq720a
   "谷歌", // xn--flw351e
   "భారత్", // xn--fpcrj9c3d
   "ලංකා", // xn--fzc2c9e2c
@@ -877,6 +886,7 @@ module.exports = [
   "بھارت", // xn--mgbbh1a71e
   "المغرب", // xn--mgbc0a9azcg
   "السعودية", // xn--mgberp4a5d4ar
+  "سودان", // xn--mgbpl2fh
   "مليسيا", // xn--mgbx4cd0ab
   "政府", // xn--mxtq1m
   "شبكة", // xn--ngbc5azd
@@ -904,6 +914,7 @@ module.exports = [
   "广东", // xn--xhq521b
   "இலங்கை", // xn--xkc2al3hye2a
   "இந்தியா", // xn--xkc2dl3a5ee0h
+  "հայ", // xn--y9a3aq
   "新加坡", // xn--yfro4i67o
   "فلسطين", // xn--ygbi2ammx
   "政务", // xn--zfr164b
