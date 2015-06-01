@@ -62,6 +62,7 @@ module.exports = [
   "bayern",
   "bb",
   "bbc",
+  "bbva",
   "bd",
   "be",
   "beer",
@@ -670,6 +671,8 @@ module.exports = [
   "saarland",
   "sale",
   "samsung",
+  "sandvik",
+  "sandvikcoromant",
   "sap",
   "sarl",
   "saxo",
@@ -703,6 +706,7 @@ module.exports = [
   "site",
   "sj",
   "sk",
+  "ski",
   "sky",
   "sl",
   "sm",
@@ -819,6 +823,7 @@ module.exports = [
   "voyage",
   "vu",
   "wales",
+  "walter",
   "wang",
   "watch",
   "webcam",
@@ -882,6 +887,7 @@ module.exports = [
   "भारत", // xn--h2brj9c
   "网店", // xn--hxt814e
   "संगठन", // xn--i1b6b1a6a2e
+  "餐厅", // xn--imr513n
   "网络", // xn--io0a7i
   "укр", // xn--j1amh
   "香港", // xn--j6w193g
