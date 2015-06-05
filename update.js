@@ -1,4 +1,3 @@
-
 var punycode = require('punycode');
 var request = require('superagent');
 var fs = require('fs');
@@ -8,7 +7,7 @@ var url = process.argv[2] || 'http://data.iana.org/TLD/tlds-alpha-by-domain.txt'
 request.get(url).end(function (err, res) {
   if (err) throw err;
 
-  var str = '\nmodule.exports = [';
+  var str = 'module.exports = [';
   var count = 0;
 
   res.text.split('\n').forEach(function (line) {
