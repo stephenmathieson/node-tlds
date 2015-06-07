@@ -1,4 +1,3 @@
-
 module.exports = [
   "abb",
   "abbott",
@@ -51,6 +50,7 @@ module.exports = [
   "ax",
   "axa",
   "az",
+  "azure",
   "ba",
   "band",
   "bank",
@@ -372,6 +372,7 @@ module.exports = [
   "hockey",
   "holdings",
   "holiday",
+  "homedepot",
   "homes",
   "honda",
   "horse",
@@ -519,6 +520,7 @@ module.exports = [
   "moe",
   "monash",
   "money",
+  "montblanc",
   "mormon",
   "mortgage",
   "moscow",
@@ -846,6 +848,7 @@ module.exports = [
   "ws",
   "wtc",
   "wtf",
+  "xbox",
   "xerox",
   "xin",
   "佛山", // xn--1qqw23a
