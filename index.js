@@ -28,7 +28,6 @@ module.exports = [
   "alsace",
   "am",
   "amsterdam",
-  "an",
   "android",
   "ao",
   "apartments",
@@ -101,6 +100,7 @@ module.exports = [
   "boats",
   "bond",
   "boo",
+  "boots",
   "boutique",
   "br",
   "bradesco",
@@ -146,6 +146,7 @@ module.exports = [
   "cbn",
   "cc",
   "cd",
+  "ceb",
   "center",
   "ceo",
   "cern",
@@ -154,6 +155,7 @@ module.exports = [
   "cfd",
   "cg",
   "ch",
+  "chanel",
   "channel",
   "chat",
   "cheap",
@@ -284,8 +286,10 @@ module.exports = [
   "expert",
   "exposed",
   "express",
+  "fage",
   "fail",
   "faith",
+  "family",
   "fan",
   "fans",
   "farm",
@@ -342,6 +346,7 @@ module.exports = [
   "gift",
   "gifts",
   "gives",
+  "giving",
   "gl",
   "glass",
   "gle",
@@ -367,6 +372,7 @@ module.exports = [
   "gratis",
   "green",
   "gripe",
+  "group",
   "gs",
   "gt",
   "gu",
@@ -501,6 +507,7 @@ module.exports = [
   "limo",
   "link",
   "live",
+  "lixil",
   "lk",
   "loan",
   "loans",
@@ -556,6 +563,7 @@ module.exports = [
   "mobi",
   "moda",
   "moe",
+  "mom",
   "monash",
   "money",
   "montblanc",
@@ -744,6 +752,7 @@ module.exports = [
   "sd",
   "se",
   "seat",
+  "seek",
   "sener",
   "services",
   "sew",
@@ -878,6 +887,7 @@ module.exports = [
   "viajes",
   "video",
   "villas",
+  "vin",
   "vision",
   "vista",
   "vistaprint",
@@ -905,6 +915,7 @@ module.exports = [
   "williamhill",
   "win",
   "windows",
+  "wine",
   "wme",
   "work",
   "works",
@@ -915,11 +926,14 @@ module.exports = [
   "xbox",
   "xerox",
   "xin",
+  "कॉम", // xn--11b4c3d
   "佛山", // xn--1qqw23a
   "慈善", // xn--30rr7y
   "集团", // xn--3bst00m
   "在线", // xn--3ds443g
   "한국", // xn--3e0b707e
+  "点看", // xn--3pxu8k
+  "คอม", // xn--42c2d9a
   "ভারত", // xn--45brj9c
   "八卦", // xn--45q11c
   "موقع", // xn--4gbrim
@@ -933,9 +947,11 @@ module.exports = [
   "сайт", // xn--80aswg
   "срб", // xn--90a3ac
   "бел", // xn--90ais
+  "קום", // xn--9dbq2a
   "时尚", // xn--9et52u
   "淡马锡", // xn--b4w605ferd
   "орг", // xn--c1avg
+  "नेट", // xn--c2br7g
   "삼성", // xn--cg4bki
   "சிங்கப்பூர்", // xn--clchc0ea0b2g2a9gcd
   "商标", // xn--czr694b
@@ -944,6 +960,7 @@ module.exports = [
   "дети", // xn--d1acj3b
   "мкд", // xn--d1alf
   "工行", // xn--estv75g
+  "كوم", // xn--fhbei
   "中文网", // xn--fiq228c5hs
   "中信", // xn--fiq64b
   "中国", // xn--fiqs8s
@@ -958,6 +975,7 @@ module.exports = [
   "संगठन", // xn--i1b6b1a6a2e
   "餐厅", // xn--imr513n
   "网络", // xn--io0a7i
+  "ком", // xn--j1aef
   "укр", // xn--j1amh
   "香港", // xn--j6w193g
   "飞利浦", // xn--kcrx77d1x4a
@@ -976,6 +994,7 @@ module.exports = [
   "السعودية", // xn--mgberp4a5d4ar
   "سودان", // xn--mgbpl2fh
   "مليسيا", // xn--mgbx4cd0ab
+  "닷컴", // xn--mk1bu44c
   "政府", // xn--mxtq1m
   "شبكة", // xn--ngbc5azd
   "გე", // xn--node
@@ -987,11 +1006,14 @@ module.exports = [
   "рус", // xn--p1acf
   "рф", // xn--p1ai
   "تونس", // xn--pgbs0dh
+  "大拿", // xn--pssy2u
   "みんな", // xn--q9jyb4c
   "グーグル", // xn--qcka1pmc
   "世界", // xn--rhqv96g
   "ਭਾਰਤ", // xn--s9brj9c
   "网址", // xn--ses554g
+  "닷넷", // xn--t60b56a
+  "コム", // xn--tckwe
   "游戏", // xn--unup4y
   "vermögensberater", // xn--vermgensberater-ctb
   "vermögensberatung", // xn--vermgensberatung-pwb
@@ -1006,6 +1028,7 @@ module.exports = [
   "新加坡", // xn--yfro4i67o
   "فلسطين", // xn--ygbi2ammx
   "政务", // xn--zfr164b
+  "xperia",
   "xxx",
   "xyz",
   "yachts",
