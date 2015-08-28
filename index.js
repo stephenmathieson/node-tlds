@@ -7,6 +7,7 @@ module.exports = [
   "accenture",
   "accountant",
   "accountants",
+  "aco",
   "active",
   "actor",
   "ad",
@@ -959,6 +960,7 @@ module.exports = [
   "商城", // xn--czru2d
   "дети", // xn--d1acj3b
   "мкд", // xn--d1alf
+  "新闻", // xn--efvy88h
   "工行", // xn--estv75g
   "كوم", // xn--fhbei
   "中文网", // xn--fiq228c5hs
