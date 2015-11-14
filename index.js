@@ -1,5 +1,6 @@
 module.exports = [
   "aaa",
+  "aarp",
   "abb",
   "abbott",
   "abogado",
@@ -35,6 +36,7 @@ module.exports = [
   "ao",
   "apartments",
   "app",
+  "apple",
   "aq",
   "aquarelle",
   "ar",
@@ -74,6 +76,7 @@ module.exports = [
   "bcn",
   "bd",
   "be",
+  "beats",
   "beer",
   "bentley",
   "berlin",
@@ -176,6 +179,7 @@ module.exports = [
   "cisco",
   "citic",
   "city",
+  "cityeats",
   "ck",
   "cl",
   "claims",
@@ -213,6 +217,7 @@ module.exports = [
   "cr",
   "credit",
   "creditcard",
+  "creditunion",
   "cricket",
   "crown",
   "crs",
@@ -307,6 +312,7 @@ module.exports = [
   "farm",
   "fashion",
   "feedback",
+  "ferrero",
   "fi",
   "film",
   "final",
@@ -522,6 +528,7 @@ module.exports = [
   "liaison",
   "lidl",
   "life",
+  "lifestyle",
   "lighting",
   "limited",
   "limo",
@@ -694,6 +701,7 @@ module.exports = [
   "pl",
   "place",
   "play",
+  "playstation",
   "plumbing",
   "plus",
   "pm",
@@ -746,6 +754,7 @@ module.exports = [
   "rio",
   "rip",
   "ro",
+  "rocher",
   "rocks",
   "rodeo",
   "rs",
@@ -915,6 +924,7 @@ module.exports = [
   "uz",
   "va",
   "vacations",
+  "vana",
   "vc",
   "ve",
   "vegas",
@@ -1036,6 +1046,7 @@ module.exports = [
   "المغرب", // xn--mgbc0a9azcg
   "السعودية", // xn--mgberp4a5d4ar
   "سودان", // xn--mgbpl2fh
+  "عراق", // xn--mgbtx2b
   "مليسيا", // xn--mgbx4cd0ab
   "닷컴", // xn--mk1bu44c
   "政府", // xn--mxtq1m
@@ -1052,6 +1063,7 @@ module.exports = [
   "大拿", // xn--pssy2u
   "みんな", // xn--q9jyb4c
   "グーグル", // xn--qcka1pmc
+  "ελ", // xn--qxam
   "世界", // xn--rhqv96g
   "ਭਾਰਤ", // xn--s9brj9c
   "网址", // xn--ses554g
