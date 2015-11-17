@@ -203,6 +203,7 @@ module.exports = [
   "community",
   "company",
   "computer",
+  "comsec",
   "condos",
   "construction",
   "consulting",
