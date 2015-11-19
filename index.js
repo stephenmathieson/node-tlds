@@ -115,6 +115,7 @@ module.exports = [
   "br",
   "bradesco",
   "bridgestone",
+  "broadway",
   "broker",
   "brother",
   "brussels",
