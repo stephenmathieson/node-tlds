@@ -810,6 +810,7 @@ module.exports = [
   "sew",
   "sex",
   "sexy",
+  "sfr",
   "sg",
   "sh",
   "shiksha",
