@@ -701,6 +701,7 @@ module.exports = [
   "page",
   "panerai",
   "paris",
+  "pars",
   "partners",
   "parts",
   "party",
@@ -1086,6 +1087,7 @@ module.exports = [
   "المغرب", // xn--mgbc0a9azcg
   "السعودية", // xn--mgberp4a5d4ar
   "سودان", // xn--mgbpl2fh
+  "همراه", // xn--mgbt3dhd
   "عراق", // xn--mgbtx2b
   "مليسيا", // xn--mgbx4cd0ab
   "닷컴", // xn--mk1bu44c
