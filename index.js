@@ -950,6 +950,7 @@ module.exports = [
   "trv",
   "tt",
   "tui",
+  "tushu",
   "tv",
   "tw",
   "tz",
@@ -997,6 +998,7 @@ module.exports = [
   "walter",
   "wang",
   "watch",
+  "watches",
   "webcam",
   "website",
   "wed",
@@ -1053,6 +1055,7 @@ module.exports = [
   "商城", // xn--czru2d
   "дети", // xn--d1acj3b
   "мкд", // xn--d1alf
+  "ポイント", // xn--eckvdtc9d
   "新闻", // xn--efvy88h
   "工行", // xn--estv75g
   "كوم", // xn--fhbei
