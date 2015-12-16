@@ -506,6 +506,7 @@ module.exports = [
   "kaufen",
   "kddi",
   "ke",
+  "kfh",
   "kg",
   "kh",
   "ki",
@@ -519,6 +520,7 @@ module.exports = [
   "koeln",
   "komatsu",
   "kp",
+  "kpn",
   "kr",
   "krd",
   "kred",
@@ -837,6 +839,7 @@ module.exports = [
   "sg",
   "sh",
   "sharp",
+  "shell",
   "shia",
   "shiksha",
   "shoes",
@@ -946,6 +949,7 @@ module.exports = [
   "training",
   "travel",
   "travelers",
+  "travelersinsurance",
   "trust",
   "trv",
   "tt",
@@ -997,6 +1001,7 @@ module.exports = [
   "wales",
   "walter",
   "wang",
+  "wanggou",
   "watch",
   "watches",
   "webcam",
@@ -1079,6 +1084,7 @@ module.exports = [
   "飞利浦", // xn--kcrx77d1x4a
   "台湾", // xn--kprw13d
   "台灣", // xn--kpry57d
+  "手表", // xn--kpu716f
   "手机", // xn--kput3i
   "мон", // xn--l1acc
   "الجزائر", // xn--lgbbat1ad8j
@@ -1098,6 +1104,7 @@ module.exports = [
   "닷컴", // xn--mk1bu44c
   "政府", // xn--mxtq1m
   "شبكة", // xn--ngbc5azd
+  "بيتك", // xn--ngbe9e0a
   "გე", // xn--node
   "机构", // xn--nqv7f
   "组织机构", // xn--nqv7fs00ema
@@ -1106,6 +1113,7 @@ module.exports = [
   "سورية", // xn--ogbpf8fl
   "рус", // xn--p1acf
   "рф", // xn--p1ai
+  "珠宝", // xn--pbt977c
   "تونس", // xn--pgbs0dh
   "大拿", // xn--pssy2u
   "みんな", // xn--q9jyb4c
