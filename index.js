@@ -349,6 +349,7 @@ module.exports = [
   "fo",
   "foo",
   "football",
+  "ford",
   "forex",
   "forsale",
   "forum",
@@ -495,6 +496,7 @@ module.exports = [
   "jlc",
   "jll",
   "jm",
+  "jmp",
   "jo",
   "jobs",
   "joburg",
@@ -556,6 +558,7 @@ module.exports = [
   "like",
   "limited",
   "limo",
+  "lincoln",
   "linde",
   "link",
   "live",
@@ -810,6 +813,7 @@ module.exports = [
   "sap",
   "sapo",
   "sarl",
+  "sas",
   "saxo",
   "sb",
   "sbs",
@@ -879,6 +883,7 @@ module.exports = [
   "stc",
   "stcgroup",
   "stockholm",
+  "storage",
   "studio",
   "study",
   "style",
@@ -1081,6 +1086,7 @@ module.exports = [
   "ком", // xn--j1aef
   "укр", // xn--j1amh
   "香港", // xn--j6w193g
+  "诺基亚", // xn--jlq61u9w7b
   "飞利浦", // xn--kcrx77d1x4a
   "台湾", // xn--kprw13d
   "台灣", // xn--kpry57d
