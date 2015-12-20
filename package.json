@@ -27,5 +27,8 @@
   "scripts": {
     "test": "node test.js"
   },
+  "bin": {
+    "tlds": "bin.js"
+  },
   "license": "MIT"
 }
