@@ -32,6 +32,7 @@ module.exports = [
   "am",
   "amica",
   "amsterdam",
+  "analytics",
   "android",
   "ao",
   "apartments",
