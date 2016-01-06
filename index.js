@@ -64,6 +64,7 @@ module.exports = [
   "az",
   "azure",
   "ba",
+  "baidu",
   "band",
   "bank",
   "bar",
