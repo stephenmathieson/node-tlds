@@ -288,6 +288,7 @@ module.exports = [
   "doosan",
   "download",
   "drive",
+  "dubai",
   "durban",
   "dvag",
   "dz",
