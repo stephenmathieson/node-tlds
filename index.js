@@ -978,6 +978,7 @@ module.exports = [
   "trust",
   "trv",
   "tt",
+  "tube",
   "tui",
   "tushu",
   "tv",
