@@ -1031,6 +1031,7 @@ module.exports = [
   "wanggou",
   "watch",
   "watches",
+  "weather",
   "webcam",
   "weber",
   "website",
