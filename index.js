@@ -27,6 +27,8 @@ module.exports = [
   "airforce",
   "airtel",
   "al",
+  "alibaba",
+  "alipay",
   "allfinanz",
   "alsace",
   "am",
@@ -888,6 +890,7 @@ module.exports = [
   "so",
   "soccer",
   "social",
+  "softbank",
   "software",
   "sohu",
   "solar",
@@ -1106,6 +1109,7 @@ module.exports = [
   "谷歌", // xn--flw351e
   "భారత్", // xn--fpcrj9c3d
   "ලංකා", // xn--fzc2c9e2c
+  "购物", // xn--g2xx48c
   "ભારત", // xn--gecrj9c
   "भारत", // xn--h2brj9c
   "网店", // xn--hxt814e
