@@ -567,6 +567,7 @@ module.exports = [
   "liaison",
   "lidl",
   "life",
+  "lifeinsurance",
   "lifestyle",
   "lighting",
   "like",
