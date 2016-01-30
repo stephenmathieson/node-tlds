@@ -267,6 +267,7 @@ module.exports = [
   "degree",
   "delivery",
   "dell",
+  "deloitte",
   "delta",
   "democrat",
   "dental",
