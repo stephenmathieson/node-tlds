@@ -1008,6 +1008,7 @@ module.exports = [
   "ubs",
   "ug",
   "uk",
+  "unicom",
   "university",
   "uno",
   "uol",
