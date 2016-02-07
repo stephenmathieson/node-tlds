@@ -372,6 +372,7 @@ module.exports = [
   "fresenius",
   "frl",
   "frogans",
+  "frontier",
   "fund",
   "furniture",
   "futbol",
@@ -789,6 +790,7 @@ module.exports = [
   "qa",
   "qpon",
   "quebec",
+  "quest",
   "racing",
   "re",
   "read",
@@ -1097,6 +1099,7 @@ module.exports = [
   "қаз", // xn--80ao21a
   "онлайн", // xn--80asehdb
   "сайт", // xn--80aswg
+  "联通", // xn--8y0a063a
   "срб", // xn--90a3ac
   "бел", // xn--90ais
   "קום", // xn--9dbq2a
