@@ -380,6 +380,7 @@ module.exports = [
   "ga",
   "gal",
   "gallery",
+  "gallup",
   "game",
   "garden",
   "gb",
@@ -440,6 +441,7 @@ module.exports = [
   "hamburg",
   "hangout",
   "haus",
+  "hdfcbank",
   "health",
   "healthcare",
   "help",
@@ -678,6 +680,7 @@ module.exports = [
   "nadex",
   "nagoya",
   "name",
+  "natura",
   "navy",
   "nc",
   "ne",
@@ -786,6 +789,7 @@ module.exports = [
   "pt",
   "pub",
   "pw",
+  "pwc",
   "py",
   "qa",
   "qpon",
@@ -1071,6 +1075,7 @@ module.exports = [
   "windows",
   "wine",
   "wme",
+  "wolterskluwer",
   "work",
   "works",
   "world",
@@ -1114,6 +1119,7 @@ module.exports = [
   "商城", // xn--czru2d
   "дети", // xn--d1acj3b
   "мкд", // xn--d1alf
+  "ею", // xn--e1a4c
   "ポイント", // xn--eckvdtc9d
   "新闻", // xn--efvy88h
   "工行", // xn--estv75g
@@ -1158,6 +1164,7 @@ module.exports = [
   "همراه", // xn--mgbt3dhd
   "عراق", // xn--mgbtx2b
   "مليسيا", // xn--mgbx4cd0ab
+  "澳門", // xn--mix891f
   "닷컴", // xn--mk1bu44c
   "政府", // xn--mxtq1m
   "شبكة", // xn--ngbc5azd
