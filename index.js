@@ -233,6 +233,7 @@ module.exports = [
   "coop",
   "corsica",
   "country",
+  "coupon",
   "coupons",
   "courses",
   "cr",
@@ -915,6 +916,7 @@ module.exports = [
   "soy",
   "space",
   "spiegel",
+  "spot",
   "spreadbetting",
   "sr",
   "srl",
@@ -1088,6 +1090,7 @@ module.exports = [
   "xerox",
   "xin",
   "कॉम", // xn--11b4c3d
+  "セール", // xn--1ck2e1b
   "佛山", // xn--1qqw23a
   "慈善", // xn--30rr7y
   "集团", // xn--3bst00m
@@ -1114,6 +1117,7 @@ module.exports = [
   "淡马锡", // xn--b4w605ferd
   "орг", // xn--c1avg
   "नेट", // xn--c2br7g
+  "ストア", // xn--cck2b3b
   "삼성", // xn--cg4bki
   "சிங்கப்பூர்", // xn--clchc0ea0b2g2a9gcd
   "商标", // xn--czr694b
@@ -1135,6 +1139,7 @@ module.exports = [
   "భారత్", // xn--fpcrj9c3d
   "ලංකා", // xn--fzc2c9e2c
   "购物", // xn--g2xx48c
+  "クラウド", // xn--gckr3f0f
   "ભારત", // xn--gecrj9c
   "भारत", // xn--h2brj9c
   "网店", // xn--hxt814e
@@ -1186,6 +1191,7 @@ module.exports = [
   "グーグル", // xn--qcka1pmc
   "ελ", // xn--qxam
   "世界", // xn--rhqv96g
+  "書籍", // xn--rovu88b
   "ਭਾਰਤ", // xn--s9brj9c
   "网址", // xn--ses554g
   "닷넷", // xn--t60b56a
