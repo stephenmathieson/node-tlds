@@ -1115,6 +1115,7 @@ module.exports = [
   "קום", // xn--9dbq2a
   "时尚", // xn--9et52u
   "淡马锡", // xn--b4w605ferd
+  "ファッション", // xn--bck1b9a5dre4c
   "орг", // xn--c1avg
   "नेट", // xn--c2br7g
   "ストア", // xn--cck2b3b
