@@ -930,6 +930,7 @@ module.exports = [
   "stcgroup",
   "stockholm",
   "storage",
+  "store",
   "studio",
   "study",
   "style",
@@ -1039,6 +1040,7 @@ module.exports = [
   "vi",
   "viajes",
   "video",
+  "viking",
   "villas",
   "vin",
   "vip",
@@ -1151,6 +1153,7 @@ module.exports = [
   "укр", // xn--j1amh
   "香港", // xn--j6w193g
   "诺基亚", // xn--jlq61u9w7b
+  "食品", // xn--jvr189m
   "飞利浦", // xn--kcrx77d1x4a
   "台湾", // xn--kprw13d
   "台灣", // xn--kpry57d
