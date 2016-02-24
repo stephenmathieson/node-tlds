@@ -912,6 +912,7 @@ module.exports = [
   "sohu",
   "solar",
   "solutions",
+  "song",
   "sony",
   "soy",
   "space",
