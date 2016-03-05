@@ -532,6 +532,9 @@ module.exports = [
   "kaufen",
   "kddi",
   "ke",
+  "kerryhotels",
+  "kerrylogistics",
+  "kerryproperties",
   "kfh",
   "kg",
   "kh",
@@ -550,6 +553,7 @@ module.exports = [
   "kr",
   "krd",
   "kred",
+  "kuokgroup",
   "kw",
   "ky",
   "kyoto",
@@ -1211,6 +1215,7 @@ module.exports = [
   "vermögensberatung", // xn--vermgensberatung-pwb
   "企业", // xn--vhquv
   "信息", // xn--vuq861b
+  "嘉里大酒店", // xn--w4r85el8fhu5dnra
   "مصر", // xn--wgbh1c
   "قطر", // xn--wgbl6a
   "广东", // xn--xhq521b
