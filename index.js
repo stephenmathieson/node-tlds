@@ -942,6 +942,7 @@ module.exports = [
   "stockholm",
   "storage",
   "store",
+  "stream",
   "studio",
   "study",
   "style",
