@@ -64,6 +64,7 @@ module.exports = [
   "autos",
   "avianca",
   "aw",
+  "aws",
   "ax",
   "axa",
   "az",
@@ -333,6 +334,7 @@ module.exports = [
   "expert",
   "exposed",
   "express",
+  "extraspace",
   "fage",
   "fail",
   "fairwinds",
@@ -969,6 +971,7 @@ module.exports = [
   "sz",
   "tab",
   "taipei",
+  "talk",
   "taobao",
   "tatamotors",
   "tatar",
@@ -1152,6 +1155,7 @@ module.exports = [
   "ポイント", // xn--eckvdtc9d
   "新闻", // xn--efvy88h
   "工行", // xn--estv75g
+  "家電", // xn--fct429k
   "كوم", // xn--fhbei
   "中文网", // xn--fiq228c5hs
   "中信", // xn--fiq64b
@@ -1246,6 +1250,7 @@ module.exports = [
   "yodobashi",
   "yoga",
   "yokohama",
+  "you",
   "youtube",
   "yt",
   "za",
