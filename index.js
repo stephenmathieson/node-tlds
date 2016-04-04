@@ -481,6 +481,7 @@ module.exports = [
   "hr",
   "hsbc",
   "ht",
+  "htc",
   "hu",
   "hyundai",
   "ibm",
