@@ -3,7 +3,9 @@ module.exports = [
   "aarp",
   "abb",
   "abbott",
+  "abbvie",
   "abogado",
+  "abudhabi",
   "ac",
   "academy",
   "accenture",
@@ -726,6 +728,7 @@ module.exports = [
   "nl",
   "no",
   "nokia",
+  "northwesternmutual",
   "norton",
   "nowruz",
   "np",
@@ -1070,6 +1073,7 @@ module.exports = [
   "vi",
   "viajes",
   "video",
+  "vig",
   "viking",
   "villas",
   "vin",
@@ -1102,6 +1106,7 @@ module.exports = [
   "website",
   "wed",
   "wedding",
+  "weibo",
   "weir",
   "wf",
   "whoswho",
@@ -1148,6 +1153,7 @@ module.exports = [
   "бел", // xn--90ais
   "קום", // xn--9dbq2a
   "时尚", // xn--9et52u
+  "微博", // xn--9krt00a
   "淡马锡", // xn--b4w605ferd
   "ファッション", // xn--bck1b9a5dre4c
   "орг", // xn--c1avg
@@ -1203,6 +1209,7 @@ module.exports = [
   "موبايلي", // xn--mgbb9fbpob
   "بھارت", // xn--mgbbh1a71e
   "المغرب", // xn--mgbc0a9azcg
+  "ابوظبي", // xn--mgbca7dzdo
   "السعودية", // xn--mgberp4a5d4ar
   "سودان", // xn--mgbpl2fh
   "همراه", // xn--mgbt3dhd
