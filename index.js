@@ -1002,6 +1002,7 @@ module.exports = [
   "telefonica",
   "temasek",
   "tennis",
+  "teva",
   "tf",
   "tg",
   "th",
