@@ -387,6 +387,7 @@ module.exports = [
   "frl",
   "frogans",
   "frontier",
+  "ftr",
   "fund",
   "furniture",
   "futbol",
@@ -1151,6 +1152,7 @@ module.exports = [
   "موقع", // xn--4gbrim
   "公益", // xn--55qw42g
   "公司", // xn--55qx5d
+  "网站", // xn--5tzm5g
   "移动", // xn--6frz82g
   "我爱你", // xn--6qq986b3xl
   "москва", // xn--80adxhks
