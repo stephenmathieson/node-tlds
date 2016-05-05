@@ -613,6 +613,7 @@ module.exports = [
   "lincoln",
   "linde",
   "link",
+  "lipsy",
   "live",
   "living",
   "lixil",
@@ -722,6 +723,8 @@ module.exports = [
   "neustar",
   "new",
   "news",
+  "next",
+  "nextdirect",
   "nexus",
   "nf",
   "ng",
@@ -750,6 +753,7 @@ module.exports = [
   "obi",
   "office",
   "okinawa",
+  "olayan",
   "om",
   "omega",
   "one",
@@ -1109,6 +1113,7 @@ module.exports = [
   "walter",
   "wang",
   "wanggou",
+  "warman",
   "watch",
   "watches",
   "weather",
@@ -1216,6 +1221,7 @@ module.exports = [
   "عمان", // xn--mgb9awbf
   "ارامكو", // xn--mgba3a3ejt
   "ایران", // xn--mgba3a4f16a
+  "العليان", // xn--mgba7c0bbn0a
   "امارات", // xn--mgbaam7a8h
   "بازار", // xn--mgbab2bd
   "الاردن", // xn--mgbayh7gpa
