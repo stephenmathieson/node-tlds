@@ -754,6 +754,7 @@ module.exports = [
   "office",
   "okinawa",
   "olayan",
+  "olayangroup",
   "om",
   "omega",
   "one",
