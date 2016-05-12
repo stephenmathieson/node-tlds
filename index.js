@@ -368,6 +368,7 @@ module.exports = [
   "fk",
   "flickr",
   "flights",
+  "flir",
   "florist",
   "flowers",
   "flsmidth",
