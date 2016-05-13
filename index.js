@@ -274,6 +274,7 @@ module.exports = [
   "datsun",
   "day",
   "dclk",
+  "dds",
   "de",
   "dealer",
   "deals",
@@ -663,6 +664,7 @@ module.exports = [
   "men",
   "menu",
   "meo",
+  "metlife",
   "mg",
   "mh",
   "miami",
@@ -743,6 +745,7 @@ module.exports = [
   "northwesternmutual",
   "norton",
   "nowruz",
+  "nowtv",
   "np",
   "nr",
   "nra",
@@ -781,6 +784,7 @@ module.exports = [
   "parts",
   "party",
   "passagens",
+  "pccw",
   "pe",
   "pet",
   "pf",
@@ -861,6 +865,7 @@ module.exports = [
   "reviews",
   "rexroth",
   "rich",
+  "richardli",
   "ricoh",
   "rio",
   "rip",
@@ -1200,6 +1205,7 @@ module.exports = [
   "谷歌", // xn--flw351e
   "భారత్", // xn--fpcrj9c3d
   "ලංකා", // xn--fzc2c9e2c
+  "電訊盈科", // xn--fzys8d69uvgm
   "购物", // xn--g2xx48c
   "クラウド", // xn--gckr3f0f
   "ભારત", // xn--gecrj9c
