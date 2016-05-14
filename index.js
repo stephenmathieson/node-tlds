@@ -471,6 +471,7 @@ module.exports = [
   "hitachi",
   "hiv",
   "hk",
+  "hkt",
   "hm",
   "hn",
   "hockey",
