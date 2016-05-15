@@ -450,6 +450,7 @@ module.exports = [
   "gs",
   "gt",
   "gu",
+  "guardian",
   "gucci",
   "guge",
   "guide",
