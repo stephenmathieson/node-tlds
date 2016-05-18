@@ -1275,6 +1275,7 @@ module.exports = [
   "企业", // xn--vhquv
   "信息", // xn--vuq861b
   "嘉里大酒店", // xn--w4r85el8fhu5dnra
+  "嘉里", // xn--w4rs40l
   "مصر", // xn--wgbh1c
   "قطر", // xn--wgbl6a
   "广东", // xn--xhq521b
