@@ -21,6 +21,7 @@ module.exports = [
   "ae",
   "aeg",
   "aero",
+  "aetna",
   "af",
   "afl",
   "ag",
