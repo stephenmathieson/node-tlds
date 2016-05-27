@@ -678,6 +678,7 @@ module.exports = [
   "mini",
   "mk",
   "ml",
+  "mlb",
   "mls",
   "mm",
   "mma",
