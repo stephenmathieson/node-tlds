@@ -1093,6 +1093,7 @@ module.exports = [
   "university",
   "uno",
   "uol",
+  "ups",
   "us",
   "uy",
   "uz",
