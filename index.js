@@ -805,6 +805,7 @@ module.exports = [
   "orange",
   "org",
   "organic",
+  "orientexpress",
   "origins",
   "osaka",
   "otsuka",
