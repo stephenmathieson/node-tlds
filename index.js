@@ -192,6 +192,7 @@ module.exports = [
   "catering",
   "cba",
   "cbn",
+  "cbre",
   "cc",
   "cd",
   "ceb",
@@ -980,6 +981,7 @@ module.exports = [
   "sfr",
   "sg",
   "sh",
+  "shangrila",
   "sharp",
   "shaw",
   "shell",
@@ -1225,6 +1227,7 @@ module.exports = [
   "موقع", // xn--4gbrim
   "公益", // xn--55qw42g
   "公司", // xn--55qx5d
+  "香格里拉", // xn--5su34j936bgsg
   "网站", // xn--5tzm5g
   "移动", // xn--6frz82g
   "我爱你", // xn--6qq986b3xl
@@ -1234,6 +1237,7 @@ module.exports = [
   "сайт", // xn--80aswg
   "联通", // xn--8y0a063a
   "срб", // xn--90a3ac
+  "бг", // xn--90ae
   "бел", // xn--90ais
   "קום", // xn--9dbq2a
   "时尚", // xn--9et52u
@@ -1362,6 +1366,7 @@ module.exports = [
   "zara",
   "zero",
   "zip",
+  "zippo",
   "zm",
   "zone",
   "zuerich",
