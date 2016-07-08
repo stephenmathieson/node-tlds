@@ -711,6 +711,7 @@ module.exports = [
   "microsoft",
   "mil",
   "mini",
+  "mit",
   "mk",
   "ml",
   "mlb",
