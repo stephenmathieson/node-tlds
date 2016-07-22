@@ -1117,6 +1117,7 @@ module.exports = [
   "thd",
   "theater",
   "theatre",
+  "tiaa",
   "tickets",
   "tienda",
   "tiffany",
