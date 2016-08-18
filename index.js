@@ -33,6 +33,7 @@ module.exports = [
   "agency",
   "ai",
   "aig",
+  "aigo",
   "airbus",
   "airforce",
   "airtel",
@@ -531,6 +532,7 @@ module.exports = [
   "hangout",
   "haus",
   "hbo",
+  "hdfc",
   "hdfcbank",
   "health",
   "healthcare",
@@ -1329,6 +1331,7 @@ module.exports = [
   "集团", // xn--3bst00m
   "在线", // xn--3ds443g
   "한국", // xn--3e0b707e
+  "大众汽车", // xn--3oq18vl8pn36a
   "点看", // xn--3pxu8k
   "คอม", // xn--42c2d9a
   "ভারত", // xn--45brj9c
