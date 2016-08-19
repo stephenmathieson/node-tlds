@@ -83,6 +83,7 @@ module.exports = [
   "audi",
   "audible",
   "audio",
+  "auspost",
   "author",
   "auto",
   "autos",
