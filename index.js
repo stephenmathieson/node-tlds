@@ -340,6 +340,7 @@ module.exports = [
   "discount",
   "discover",
   "dish",
+  "diy",
   "dj",
   "dk",
   "dm",
