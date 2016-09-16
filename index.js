@@ -805,6 +805,7 @@ module.exports = [
   "mom",
   "monash",
   "money",
+  "monster",
   "montblanc",
   "mopar",
   "mormon",
