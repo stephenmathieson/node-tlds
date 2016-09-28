@@ -1328,6 +1328,7 @@ module.exports = [
   "work",
   "works",
   "world",
+  "wow",
   "ws",
   "wtc",
   "wtf",
