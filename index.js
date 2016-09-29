@@ -885,6 +885,7 @@ module.exports = [
   "nyc",
   "nz",
   "obi",
+  "observer",
   "off",
   "office",
   "okinawa",
