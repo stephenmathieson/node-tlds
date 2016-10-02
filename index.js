@@ -363,6 +363,7 @@ module.exports = [
   "dupont",
   "durban",
   "dvag",
+  "dvr",
   "dz",
   "earth",
   "eat",
@@ -1398,6 +1399,7 @@ module.exports = [
   "购物", // xn--g2xx48c
   "クラウド", // xn--gckr3f0f
   "ભારત", // xn--gecrj9c
+  "通販", // xn--gk3at1e
   "भारत", // xn--h2brj9c
   "网店", // xn--hxt814e
   "संगठन", // xn--i1b6b1a6a2e
