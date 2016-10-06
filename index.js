@@ -1352,6 +1352,7 @@ module.exports = [
   "ভারত", // xn--45brj9c
   "八卦", // xn--45q11c
   "موقع", // xn--4gbrim
+  "বাংলা", // xn--54b7fta0cc
   "公益", // xn--55qw42g
   "公司", // xn--55qx5d
   "香格里拉", // xn--5su34j936bgsg
