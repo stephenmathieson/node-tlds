@@ -107,6 +107,7 @@ module.exports = [
   "barclays",
   "barefoot",
   "bargains",
+  "basketball",
   "bauhaus",
   "bayern",
   "bb",
