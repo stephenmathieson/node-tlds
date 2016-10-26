@@ -1294,6 +1294,7 @@ module.exports = [
   "vn",
   "vodka",
   "volkswagen",
+  "volvo",
   "vote",
   "voting",
   "voto",
