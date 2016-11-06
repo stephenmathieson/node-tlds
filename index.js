@@ -59,6 +59,7 @@ module.exports = [
   "anquan",
   "anz",
   "ao",
+  "aol",
   "apartments",
   "app",
   "apple",
