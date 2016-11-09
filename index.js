@@ -456,6 +456,7 @@ module.exports = [
   "foundation",
   "fox",
   "fr",
+  "free",
   "fresenius",
   "frl",
   "frogans",
