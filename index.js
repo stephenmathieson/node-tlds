@@ -447,6 +447,7 @@ module.exports = [
   "fm",
   "fo",
   "foo",
+  "food",
   "foodnetwork",
   "football",
   "ford",
