@@ -1038,6 +1038,7 @@ module.exports = [
   "ril",
   "rio",
   "rip",
+  "rmit",
   "ro",
   "rocher",
   "rocks",
