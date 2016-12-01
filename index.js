@@ -220,6 +220,7 @@ module.exports = [
   "casino",
   "cat",
   "catering",
+  "catholic",
   "cba",
   "cbn",
   "cbre",
@@ -1380,6 +1381,7 @@ module.exports = [
   "我爱你", // xn--6qq986b3xl
   "москва", // xn--80adxhks
   "қаз", // xn--80ao21a
+  "католик", // xn--80aqecdr1a
   "онлайн", // xn--80asehdb
   "сайт", // xn--80aswg
   "联通", // xn--8y0a063a
@@ -1449,6 +1451,7 @@ module.exports = [
   "المغرب", // xn--mgbc0a9azcg
   "ابوظبي", // xn--mgbca7dzdo
   "السعودية", // xn--mgberp4a5d4ar
+  "كاثوليك", // xn--mgbi4ecexp
   "سودان", // xn--mgbpl2fh
   "همراه", // xn--mgbt3dhd
   "عراق", // xn--mgbtx2b
@@ -1478,6 +1481,7 @@ module.exports = [
   "网址", // xn--ses554g
   "닷넷", // xn--t60b56a
   "コム", // xn--tckwe
+  "天主教", // xn--tiq49xqyj
   "游戏", // xn--unup4y
   "vermögensberater", // xn--vermgensberater-ctb
   "vermögensberatung", // xn--vermgensberatung-pwb
