@@ -545,6 +545,7 @@ module.exports = [
   "guru",
   "gw",
   "gy",
+  "hair",
   "hamburg",
   "hangout",
   "haus",
