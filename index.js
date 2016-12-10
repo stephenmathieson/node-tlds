@@ -577,6 +577,7 @@ module.exports = [
   "honda",
   "honeywell",
   "horse",
+  "hospital",
   "host",
   "hosting",
   "hot",
