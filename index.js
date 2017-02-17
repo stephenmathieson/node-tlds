@@ -28,6 +28,7 @@ module.exports = [
   "af",
   "afamilycompany",
   "afl",
+  "africa",
   "ag",
   "agakhan",
   "agency",
@@ -1449,6 +1450,7 @@ module.exports = [
   "العليان", // xn--mgba7c0bbn0a
   "امارات", // xn--mgbaam7a8h
   "بازار", // xn--mgbab2bd
+  "پاکستان", // xn--mgbai9azgqp6j
   "الاردن", // xn--mgbayh7gpa
   "موبايلي", // xn--mgbb9fbpob
   "بھارت", // xn--mgbbh1a71e
