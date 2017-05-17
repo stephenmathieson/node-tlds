@@ -844,7 +844,6 @@ module.exports = [
   "msd",
   "mt",
   "mtn",
-  "mtpc",
   "mtr",
   "mu",
   "museum",
