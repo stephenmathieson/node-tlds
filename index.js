@@ -67,6 +67,7 @@ module.exports = [
   "aq",
   "aquarelle",
   "ar",
+  "arab",
   "aramco",
   "archi",
   "army",
@@ -1467,6 +1468,7 @@ module.exports = [
   "政府", // xn--mxtq1m
   "شبكة", // xn--ngbc5azd
   "بيتك", // xn--ngbe9e0a
+  "عرب", // xn--ngbrx
   "გე", // xn--node
   "机构", // xn--nqv7f
   "组织机构", // xn--nqv7fs00ema
