@@ -403,6 +403,7 @@ module.exports = [
   "estate",
   "esurance",
   "et",
+  "etisalat",
   "eu",
   "eurovision",
   "eus",
