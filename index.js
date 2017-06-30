@@ -538,6 +538,7 @@ module.exports = [
   "gratis",
   "green",
   "gripe",
+  "grocery",
   "group",
   "gs",
   "gt",
