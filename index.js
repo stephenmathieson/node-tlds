@@ -779,6 +779,7 @@ module.exports = [
   "man",
   "management",
   "mango",
+  "map",
   "market",
   "marketing",
   "markets",
@@ -954,6 +955,7 @@ module.exports = [
   "pg",
   "ph",
   "pharmacy",
+  "phd",
   "philips",
   "phone",
   "photo",
@@ -1099,6 +1101,7 @@ module.exports = [
   "scot",
   "sd",
   "se",
+  "search",
   "seat",
   "secure",
   "security",
@@ -1370,13 +1373,16 @@ module.exports = [
   "कॉम", // xn--11b4c3d
   "セール", // xn--1ck2e1b
   "佛山", // xn--1qqw23a
+  "ಭಾರತ", // xn--2scrj9c
   "慈善", // xn--30rr7y
   "集团", // xn--3bst00m
   "在线", // xn--3ds443g
   "한국", // xn--3e0b707e
+  "ଭାରତ", // xn--3hcrj9c
   "大众汽车", // xn--3oq18vl8pn36a
   "点看", // xn--3pxu8k
   "คอม", // xn--42c2d9a
+  "ভাৰত", // xn--45br5cyl
   "ভারত", // xn--45brj9c
   "八卦", // xn--45q11c
   "موقع", // xn--4gbrim
@@ -1430,7 +1436,9 @@ module.exports = [
   "クラウド", // xn--gckr3f0f
   "ભારત", // xn--gecrj9c
   "通販", // xn--gk3at1e
+  "भारतम्", // xn--h2breg3eve
   "भारत", // xn--h2brj9c
+  "भारोत", // xn--h2brj9c8c
   "网店", // xn--hxt814e
   "संगठन", // xn--i1b6b1a6a2e
   "餐厅", // xn--imr513n
@@ -1457,10 +1465,12 @@ module.exports = [
   "پاکستان", // xn--mgbai9azgqp6j
   "الاردن", // xn--mgbayh7gpa
   "موبايلي", // xn--mgbb9fbpob
+  "بارت", // xn--mgbbh1a
   "بھارت", // xn--mgbbh1a71e
   "المغرب", // xn--mgbc0a9azcg
   "ابوظبي", // xn--mgbca7dzdo
   "السعودية", // xn--mgberp4a5d4ar
+  "ڀارت", // xn--mgbgu82a
   "كاثوليك", // xn--mgbi4ecexp
   "سودان", // xn--mgbpl2fh
   "همراه", // xn--mgbt3dhd
@@ -1488,6 +1498,7 @@ module.exports = [
   "ελ", // xn--qxam
   "世界", // xn--rhqv96g
   "書籍", // xn--rovu88b
+  "ഭാരതം", // xn--rvc1e0am3e
   "ਭਾਰਤ", // xn--s9brj9c
   "网址", // xn--ses554g
   "닷넷", // xn--t60b56a
