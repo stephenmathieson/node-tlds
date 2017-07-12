@@ -803,6 +803,7 @@ module.exports = [
   "men",
   "menu",
   "meo",
+  "merckmsd",
   "metlife",
   "mg",
   "mh",
