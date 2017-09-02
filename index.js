@@ -789,8 +789,6 @@ module.exports = [
   "mattel",
   "mba",
   "mc",
-  "mcd",
-  "mcdonalds",
   "mckinsey",
   "md",
   "me",
