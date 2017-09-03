@@ -830,7 +830,6 @@ module.exports = [
   "monash",
   "money",
   "monster",
-  "montblanc",
   "mopar",
   "mormon",
   "mortgage",
