@@ -935,7 +935,6 @@ module.exports = [
   "ovh",
   "pa",
   "page",
-  "pamperedchef",
   "panasonic",
   "panerai",
   "paris",
