@@ -244,7 +244,6 @@ module.exports = [
   "chat",
   "cheap",
   "chintai",
-  "chloe",
   "christmas",
   "chrome",
   "chrysler",
