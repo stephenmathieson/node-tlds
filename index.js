@@ -594,7 +594,6 @@ module.exports = [
   "hr",
   "hsbc",
   "ht",
-  "htc",
   "hu",
   "hughes",
   "hyatt",
