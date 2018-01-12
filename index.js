@@ -1156,6 +1156,7 @@ module.exports = [
   "soy",
   "space",
   "spiegel",
+  "sport",
   "spot",
   "spreadbetting",
   "sr",
