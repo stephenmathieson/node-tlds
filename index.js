@@ -1484,6 +1484,7 @@ module.exports = [
   "健康", // xn--nyqy26a
   "ไทย", // xn--o3cw4h
   "سورية", // xn--ogbpf8fl
+  "招聘", // xn--otu796d
   "рус", // xn--p1acf
   "рф", // xn--p1ai
   "珠宝", // xn--pbt977c
