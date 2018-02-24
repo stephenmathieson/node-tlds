@@ -744,6 +744,7 @@ module.exports = [
   "living",
   "lixil",
   "lk",
+  "llc",
   "loan",
   "loans",
   "locker",
