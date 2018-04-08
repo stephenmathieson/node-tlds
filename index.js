@@ -165,7 +165,6 @@ module.exports = [
   "boo",
   "book",
   "booking",
-  "boots",
   "bosch",
   "bostik",
   "boston",
