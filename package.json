@@ -21,6 +21,7 @@
     "superagent": "~0.21.0"
   },
   "main": "index",
+  "types": "index.d.ts",
   "bugs": {
     "url": "https://github.com/stephenmathieson/node-tlds/issues"
   },
