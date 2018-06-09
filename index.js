@@ -239,6 +239,7 @@ module.exports = [
   "ch",
   "chanel",
   "channel",
+  "charity",
   "chase",
   "chat",
   "cheap",
