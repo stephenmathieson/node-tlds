@@ -641,7 +641,6 @@ module.exports = [
   "itau",
   "itv",
   "iveco",
-  "iwc",
   "jaguar",
   "java",
   "jcb",
