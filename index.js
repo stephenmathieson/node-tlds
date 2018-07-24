@@ -614,6 +614,7 @@ module.exports = [
   "immo",
   "immobilien",
   "in",
+  "inc",
   "industries",
   "infiniti",
   "info",
@@ -1515,7 +1516,6 @@ module.exports = [
   "新加坡", // xn--yfro4i67o
   "فلسطين", // xn--ygbi2ammx
   "政务", // xn--zfr164b
-  "xperia",
   "xxx",
   "xyz",
   "yachts",
