@@ -30,6 +30,21 @@ jobs:
       - checkout
       - restore_dependency_cache
       - run: npm test
+  release:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_dependency_cache
+      # Install `git-extras` for `git-release` and `git-changelog` commands.
+      - run: sudo apt-get install git-extras
+      # Authenticate with npm, enabling `npm publish`.
+      - run: npm config set _auth $NPM_AUTH
+      - run: npm config set email $NPM_EMAIL
+      - run: npm config set always-auth true
+      # Configure Git, enabling us to commit/push.
+      - run: git config user.email "me@stephenmathieson.com"
+      - run: git config user.name "Stephen Mathieson"
+      - run: cron.sh
 
 workflows:
   version: 2
@@ -37,5 +52,18 @@ workflows:
     jobs:
       - dependencies
       - test:
+          requires:
+            - dependencies
+  nightly:
+    triggers:
+      - schedule:
+          cron: '0 11 * * *'
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - dependencies
+      - release:
           requires:
             - dependencies
