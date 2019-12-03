@@ -1,0 +1,40 @@
+version: 2.1
+
+defaults: &defaults
+  docker:
+    - image: circleci/node:12
+  working_directory: ~/node-tlds
+
+commands:
+  restore_dependency_cache:
+    description: Restore the dependency cache
+    steps:
+      - restore_cache:
+          keys:
+            - v1-npm-cache-{{ checksum "package.json" }}
+
+jobs:
+  dependencies:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_dependency_cache
+      - run: npm install
+          key: v1-npm-cache-{{ checksum "package.json" }}
+          paths:
+            - node_modules
+  test:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_dependency_cache
+      - run: npm test
+
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - dependencies
+      - test:
+          requires:
+            - dependencies
