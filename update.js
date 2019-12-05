@@ -9,8 +9,9 @@ const { decode: decodePunycode } = require('punycode');
   const data = _
     .chain(res)
     .split("\n")
+    .initial()
     .tail()
-    .map(value => isPunycode(value) ? decodePunycode(value) : value)
+    .map(value => isPunycode(value) ? decodePunycode(value.slice(4)) : value)
     .map(_.toLower)
     .value()
   await fs.writeJSON('index.json', data, { spaces: 2 })
