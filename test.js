@@ -1,6 +1,5 @@
-
-var assert = require('assert');
-var tlds = require('./');
+const assert = require('assert');
+const tlds = require('.');
 
 assert(tlds);
 assert(tlds.length);

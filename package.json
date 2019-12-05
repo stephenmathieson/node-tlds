@@ -2,6 +2,19 @@
   "name": "tlds",
   "version": "1.207.0",
   "description": "List of TLDs",
+  "main": "index.json",
+  "types": "index.d.ts",
+  "files": [
+    "index.json",
+    "index.d.ts",
+    "bin.js"
+  ],
+  "bin": {
+    "tlds": "bin.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
   "keywords": [
     "data",
     "tld",
@@ -10,26 +23,21 @@
     "level",
     "domains"
   ],
+  "dependencies": {},
+  "devDependencies": {
+    "fs-extra": "^8.1.0",
+    "got": "^10.0.1",
+    "is-punycode": "^1.0.1",
+    "lodash": "^4.17.15",
+    "semver": "^5.5.0"
+  },
   "author": "Stephen Mathieson <me@stephenmathieson.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/stephenmathieson/node-tlds.git"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "semver": "^5.5.0",
-    "superagent": "~0.21.0"
-  },
-  "main": "index",
-  "types": "index.d.ts",
   "bugs": {
     "url": "https://github.com/stephenmathieson/node-tlds/issues"
-  },
-  "scripts": {
-    "test": "node test.js"
-  },
-  "bin": {
-    "tlds": "bin.js"
   },
   "license": "MIT"
 }
