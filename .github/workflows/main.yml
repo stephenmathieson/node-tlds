@@ -1,0 +1,34 @@
+name: Main
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: npm test
+
+  publish:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ludeeus/action-push@0.0.1
+        env:
+          ACTION_MAIL: "me@stephenmathieson.com"
+          ACTION_NAME: "stephenmathieson"
+          ACTION_BRANCH: "master"
+          ACTION_MESSAGE: "chore: Update TLDs"
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
