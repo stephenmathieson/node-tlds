@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const tlds = require(".")
+const tlds = require('.');
 
-tlds.forEach(tld => console.log(tld))
+tlds.forEach(tld => console.log(tld));

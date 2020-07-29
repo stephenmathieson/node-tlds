@@ -1,19 +1,19 @@
 {
   "name": "tlds",
   "version": "1.207.0",
-  "description": "List of TLDs",
+  "description": "A list of TLDs.",
+  "repository": "https://github.com/stephenmathieson/node-tlds.git",
+  "author": "Stephen Mathieson <me@stephenmathieson.com>",
+  "license": "MIT",
   "main": "index.json",
-  "types": "index.d.ts",
   "files": [
     "index.json",
     "index.d.ts",
     "bin.js"
   ],
-  "bin": {
-    "tlds": "bin.js"
-  },
+  "bin": "bin.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && ava"
   },
   "keywords": [
     "data",
@@ -23,21 +23,13 @@
     "level",
     "domains"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "fs-extra": "^8.1.0",
-    "got": "^10.0.1",
+    "ava": "^3.11.0",
+    "got": "^11.5.1",
     "is-punycode": "^1.0.1",
-    "lodash": "^4.17.15",
-    "semver": "^5.5.0"
-  },
-  "author": "Stephen Mathieson <me@stephenmathieson.com>",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/stephenmathieson/node-tlds.git"
-  },
-  "bugs": {
-    "url": "https://github.com/stephenmathieson/node-tlds/issues"
-  },
-  "license": "MIT"
+    "write-json-file": "^4.3.0",
+    "punycode": "^2.1.1",
+    "semver": "^5.5.0",
+    "xo": "^0.32.1"
+  }
 }

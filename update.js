@@ -1,19 +1,17 @@
+const {decode: decodePunycode} = require('punycode/');
+const writeJsonFile = require('write-json-file');
 const got = require('got');
-const _ = require('lodash');
-const fs = require('fs-extra');
 const isPunycode = require('is-punycode');
-const { decode: decodePunycode } = require('punycode');
 
 (async () => {
-  const res = await got('http://data.iana.org/TLD/tlds-alpha-by-domain.txt').text()
-  const data = _
-    .chain(res)
-    .split("\n")
-    .initial()
-    .tail()
-    .map(value => isPunycode(value) ? decodePunycode(value.slice(4)) : value)
-    .map(_.toLower)
-    .value()
-  await fs.writeJSON('index.json', data, { spaces: 2 })
-  console.log(`Saved ${data.length} TLDs!`)
+	const {body} = await got('http://data.iana.org/TLD/tlds-alpha-by-domain.txt');
+
+	const data = body
+		.split('\n')
+		.slice(1, -1)
+		.map(item => isPunycode(item) ? decodePunycode(item.slice(4)) : item)
+		.map(item => item.toLowerCase());
+
+	await writeJsonFile('index.json', data, {indent: undefined});
+	console.log(`Saved ${data.length} TLDs!`);
 })();

@@ -1,2 +1,2 @@
 declare const tlds: string[];
-export = tlds
+export = tlds;
