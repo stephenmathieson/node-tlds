@@ -3,7 +3,7 @@ const writeJsonFile = require('write-json-file');
 const got = require('got');
 const isPunycode = require('is-punycode');
 
-(async () => {
+const update = async () => {
 	const {body} = await got('http://data.iana.org/TLD/tlds-alpha-by-domain.txt');
 
 	const data = body
@@ -14,4 +14,10 @@ const isPunycode = require('is-punycode');
 
 	await writeJsonFile('index.json', data, {indent: undefined});
 	console.log(`Saved ${data.length} TLDs!`);
-})();
+};
+
+module.exports = update;
+
+if (require.main === module) {
+	update();
+}
