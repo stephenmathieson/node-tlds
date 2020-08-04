@@ -33,7 +33,6 @@ module.exports = [
   "agency",
   "ai",
   "aig",
-  "aigo",
   "airbus",
   "airforce",
   "airtel",
@@ -48,6 +47,7 @@ module.exports = [
   "alsace",
   "alstom",
   "am",
+  "amazon",
   "americanexpress",
   "americanfamily",
   "amex",
@@ -392,7 +392,6 @@ module.exports = [
   "es",
   "esq",
   "estate",
-  "esurance",
   "et",
   "etisalat",
   "eu",
@@ -712,7 +711,6 @@ module.exports = [
   "lexus",
   "lgbt",
   "li",
-  "liaison",
   "lidl",
   "life",
   "lifeinsurance",
@@ -731,6 +729,7 @@ module.exports = [
   "lixil",
   "lk",
   "llc",
+  "llp",
   "loan",
   "loans",
   "locker",
@@ -820,7 +819,6 @@ module.exports = [
   "motorcycles",
   "mov",
   "movie",
-  "movistar",
   "mp",
   "mq",
   "mr",
@@ -839,7 +837,6 @@ module.exports = [
   "mz",
   "na",
   "nab",
-  "nadex",
   "nagoya",
   "name",
   "nationwide",
@@ -1022,7 +1019,6 @@ module.exports = [
   "rich",
   "richardli",
   "ricoh",
-  "rightathome",
   "ril",
   "rio",
   "rip",
@@ -1073,7 +1069,6 @@ module.exports = [
   "schwarz",
   "science",
   "scjohnson",
-  "scor",
   "scot",
   "sd",
   "se",
@@ -1172,7 +1167,6 @@ module.exports = [
   "sx",
   "sy",
   "sydney",
-  "symantec",
   "systems",
   "sz",
   "tab",
@@ -1193,7 +1187,6 @@ module.exports = [
   "tech",
   "technology",
   "tel",
-  "telefonica",
   "temasek",
   "tennis",
   "teva",
@@ -1286,7 +1279,6 @@ module.exports = [
   "virgin",
   "visa",
   "vision",
-  "vistaprint",
   "viva",
   "vivo",
   "vlaanderen",
@@ -1380,6 +1372,7 @@ module.exports = [
   "орг", // xn--c1avg
   "नेट", // xn--c2br7g
   "ストア", // xn--cck2b3b
+  "アマゾン", // xn--cckwcxetd
   "삼성", // xn--cg4bki
   "சிங்கப்பூர்", // xn--clchc0ea0b2g2a9gcd
   "商标", // xn--czr694b
@@ -1390,7 +1383,6 @@ module.exports = [
   "ею", // xn--e1a4c
   "ポイント", // xn--eckvdtc9d
   "新闻", // xn--efvy88h
-  "工行", // xn--estv75g
   "家電", // xn--fct429k
   "كوم", // xn--fhbei
   "中文网", // xn--fiq228c5hs
@@ -1416,12 +1408,12 @@ module.exports = [
   "ком", // xn--j1aef
   "укр", // xn--j1amh
   "香港", // xn--j6w193g
+  "亚马逊", // xn--jlq480n2rg
   "诺基亚", // xn--jlq61u9w7b
   "食品", // xn--jvr189m
   "飞利浦", // xn--kcrx77d1x4a
   "台湾", // xn--kprw13d
   "台灣", // xn--kpry57d
-  "手表", // xn--kpu716f
   "手机", // xn--kput3i
   "мон", // xn--l1acc
   "الجزائر", // xn--lgbbat1ad8j
@@ -1439,6 +1431,7 @@ module.exports = [
   "بھارت", // xn--mgbbh1a71e
   "المغرب", // xn--mgbc0a9azcg
   "ابوظبي", // xn--mgbca7dzdo
+  "البحرين", // xn--mgbcpq6gpa1a
   "السعودية", // xn--mgberp4a5d4ar
   "ڀارت", // xn--mgbgu82a
   "كاثوليك", // xn--mgbi4ecexp
@@ -1461,9 +1454,9 @@ module.exports = [
   "招聘", // xn--otu796d
   "рус", // xn--p1acf
   "рф", // xn--p1ai
-  "珠宝", // xn--pbt977c
   "تونس", // xn--pgbs0dh
   "大拿", // xn--pssy2u
+  "ລາວ", // xn--q7ce6a
   "みんな", // xn--q9jyb4c
   "グーグル", // xn--qcka1pmc
   "ευ", // xn--qxa6a
