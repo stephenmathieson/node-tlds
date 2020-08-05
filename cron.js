@@ -28,6 +28,7 @@ const gitCommit = async (filepath, comment) => {
 ====================
 
   * Update list
+
 `);
 		await gitCommit(['package.json', 'CHANGELOG.md'], `Release ${packageData.version}`);
 
