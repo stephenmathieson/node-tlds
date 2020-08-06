@@ -13,7 +13,8 @@
   ],
   "bin": "bin.js",
   "scripts": {
-    "test": "eslint . && ava"
+    "test": "eslint . && ava",
+    "prepublishOnly": "eslint . && ava"
   },
   "keywords": [
     "data",
