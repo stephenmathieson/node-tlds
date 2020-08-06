@@ -11,29 +11,29 @@ const isoDate = new Date().toISOString().slice(0, 10);
 const castArray = value => Array.isArray(value) ? value : [value];
 
 const gitCommit = async (filepath, comment) => {
-	await execa('git', ['add', ...castArray(filepath)]);
-	await execa('git', ['commit', '-m', comment]);
+  await execa('git', ['add', ...castArray(filepath)]);
+  await execa('git', ['commit', '-m', comment]);
 };
 
 (async () => {
-	await update();
-	if (isDirty()) {
-		await gitCommit('index.json', 'Update list');
+  await update();
+  if (isDirty()) {
+    await gitCommit('index.json', 'Update list');
 
-		const packageData = await loadJsonFile('package.json');
-		packageData.version = semver.inc(packageData.version, 'minor');
-		await writeJsonFile('package.json', packageData);
+    const packageData = await loadJsonFile('package.json');
+    packageData.version = semver.inc(packageData.version, 'minor');
+    await writeJsonFile('package.json', packageData);
 
-		await prependFile('CHANGELOG.md', `${packageData.version} / ${isoDate}
+    await prependFile('CHANGELOG.md', `${packageData.version} / ${isoDate}
 ====================
 
   * Update list
 
 `);
-		await gitCommit(['package.json', 'CHANGELOG.md'], `Release ${packageData.version}`);
+    await gitCommit(['package.json', 'CHANGELOG.md'], `Release ${packageData.version}`);
 
-		await execa('git', ['tag', packageData.version]);
-		await execa('git', ['push']);
-		await execa('npm', ['publish']);
-	}
+    await execa('git', ['tag', packageData.version]);
+    await execa('git', ['push']);
+    await execa('npm', ['publish']);
+  }
 })();
