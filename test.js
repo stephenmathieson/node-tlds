@@ -1,11 +1,9 @@
+const tlds = require('.');
+const test = require('ava');
 
-var assert = require('assert');
-var tlds = require('./');
-
-assert(tlds);
-assert(tlds.length);
-assert('[object Array]' == {}.toString.call(tlds));
-
-for (var i = 0, len = tlds.length; i < len; i++) {
-  assert(tlds[i]);
-}
+test('main', t => {
+  t.true(Array.isArray(tlds));
+  tlds.forEach(tld => {
+    t.is(typeof tld, 'string');
+  });
+});

@@ -1,2 +1,2 @@
-const tlds: string[];
-export default tlds;
+declare const tlds: string[];
+export = tlds;
