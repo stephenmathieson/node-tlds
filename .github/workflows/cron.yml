@@ -12,5 +12,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
+      - run: git config user.name "TLDS Bot"
+      - run: git config user.email "me@stephenmathieson.com"
       - run: npm install
       - run: node cron
