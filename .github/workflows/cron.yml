@@ -16,3 +16,5 @@ jobs:
       - run: git config user.email "me@stephenmathieson.com"
       - run: npm install
       - run: node cron
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
