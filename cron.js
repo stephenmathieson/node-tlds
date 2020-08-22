@@ -22,7 +22,7 @@ const gitCommit = async (filepath, comment) => {
 
     const packageData = await loadJsonFile('package.json');
     packageData.version = semver.inc(packageData.version, 'minor');
-    await writeJsonFile('package.json', packageData);
+    await writeJsonFile('package.json', packageData, {indent: 2});
 
     await prependFile('CHANGELOG.md', `${packageData.version} / ${isoDate}
 ====================
