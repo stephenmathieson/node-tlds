@@ -10,9 +10,10 @@ const update = async () => {
     .split('\n')
     .slice(1, -1)
     .map(item => isPunycode(item) ? decodePunycode(item.slice(4)) : item)
-    .map(item => item.toLowerCase());
+    .map(item => item.toLowerCase())
+    .sort();
 
-  await writeJsonFile('index.json', data, {indent: undefined});
+  await writeJsonFile('index.json', data, {indent: 2});
   console.log(`Saved ${data.length} TLDs!`);
 };
 

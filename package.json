@@ -15,7 +15,8 @@
   "scripts": {
     "lint": "eslint .",
     "test": "ava",
-    "prepublishOnly": "eslint . && ava"
+    "prepublishOnly": "eslint . && ava",
+    "build": "node update.js"
   },
   "keywords": [
     "data",
