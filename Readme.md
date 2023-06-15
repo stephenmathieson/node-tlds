@@ -11,7 +11,7 @@ npm install tlds
 ## Usage
 
 ```js
-const tlds = require('tlds');
+const tlds = require("tlds");
 
 console.log(tlds);
 //=> ['aaa', 'aarp', 'abarth', 'abb', 'abbott', 'abbvie', 'abc', ...]

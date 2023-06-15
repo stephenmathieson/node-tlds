@@ -1,9 +1,13 @@
-const tlds = require('.');
-const test = require('ava');
+const assert = require("assert");
+const tlds = require(".");
 
-test('main', t => {
-  t.true(Array.isArray(tlds));
-  tlds.forEach(tld => {
-    t.is(typeof tld, 'string');
-  });
-});
+assert(Array.isArray(tlds));
+assert(tlds.length > 10);
+
+for (const tld of tlds) {
+  assert(tld);
+  assert(typeof tld === "string");
+}
+
+assert(tlds.includes("com"));
+assert(tlds.includes("net"));

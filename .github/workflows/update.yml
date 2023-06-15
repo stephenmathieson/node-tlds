@@ -1,0 +1,58 @@
+name: Update
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm install
+      - run: node update
+      - name: Exit early if unchanged
+        run: |
+          Diff=$(git diff --stat)
+          if [ -z "$Diff"]; then
+            gh run cancel ${{ github.run_id }};
+            gh run watch ${{ github.run_id }};
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Ensure tests still pass
+        run: npm test
+      - name: Commit changes
+        run: |
+          git add index.json
+          git commit -m "Update list"
+          git push
+      - name: Update metadata
+        id: metadata
+        run: |
+          CurrentVersion=$(jq -r .version package.json)
+          NextVersion=$(npx semver --increment=minor "$CurrentVersion")
+          Date=$(date +'%Y-%m-%d')
+          ChangelogEntry="# v$NextVersion / $Date\n\n- Update list"
+          ExistingChangelog=$(cat CHANGELOG.md)
+
+          echo -e "$ChangelogEntry\n\n$ExistingChangelog" >CHANGELOG.md
+          sed -i '' "s/${CurrentVersion}/${NextVersion}/" package.json
+
+          echo "NextVersion=$NextVersion" >>"$GITHUB_OUTPUT"
+      - name: Publish changes
+        run: |
+          git add CHANGELOG.md package.json
+          git commit -m "Release v${{ steps.metadata.outputs.NextVersion }}"
+          git tag -a "${{ steps.metadata.outputs.NextVersion }}" HEAD -m "Release v${{ steps.metadata.outputs.NextVersion }}"
+          git push origin master --tags
+
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
