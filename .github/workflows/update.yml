@@ -45,7 +45,9 @@ jobs:
           ExistingChangelog=$(cat CHANGELOG.md)
 
           echo -e "$ChangelogEntry\n\n$ExistingChangelog" >CHANGELOG.md
-          sed -i '' "s/${CurrentVersion}/${NextVersion}/" package.json
+          node -e "const p = require('./package.json'); \
+            p.version = '$NextVersion';\
+            require('fs').writeFileSync('./package.json', JSON.stringify(p, null, 2) + '\n');"
 
           echo "NextVersion=$NextVersion" >>"$GITHUB_OUTPUT"
       - name: Publish changes
