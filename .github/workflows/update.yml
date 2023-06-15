@@ -17,25 +17,28 @@ jobs:
           node-version: 18
       - run: npm install
       - run: node update
-      - name: Exit early if unchanged
+      - id: dirty
+        name: Check if dirty
         run: |
           Diff=$(git diff --stat)
           if [ -z "$Diff"]; then
-            gh run cancel ${{ github.run_id }};
-            gh run watch ${{ github.run_id }};
+            echo "Dirty=false" >>"$GITHUB_ENV"
+          else
+            echo "Dirty=true" >>"$GITHUB_ENV"
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Ensure tests still pass
+      - if: steps.dirty.outputs.Dirty == 'true'
+        name: Ensure tests still pass
         run: npm test
-      - name: Commit changes
+      - if: steps.dirty.outputs.Dirty == 'true'
+        name: Commit changes
         run: |
           git config --global user.email "mathiesonstephen8@gmail.com"
           git config --global user.name "Stephen Mathieson"
           git add index.json
           git commit -m "Update list"
           git push
-      - name: Update metadata
+      - if: steps.dirty.outputs.Dirty == 'true'
+        name: Update metadata
         id: metadata
         run: |
           CurrentVersion=$(jq -r .version package.json)
@@ -50,7 +53,8 @@ jobs:
             require('fs').writeFileSync('./package.json', JSON.stringify(p, null, 2) + '\n');"
 
           echo "NextVersion=$NextVersion" >>"$GITHUB_OUTPUT"
-      - name: Publish changes
+      - if: steps.dirty.outputs.Dirty == 'true'
+        name: Publish changes
         run: |
           git add CHANGELOG.md package.json
           git commit -m "Release v${{ steps.metadata.outputs.NextVersion }}"
