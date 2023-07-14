@@ -20,6 +20,7 @@ jobs:
       - id: dirty
         name: Check if dirty
         run: |
+          git status
           if [[ -z $(git status -s) ]]; then
             echo "Dirty=false" >>"$GITHUB_ENV"
           else
