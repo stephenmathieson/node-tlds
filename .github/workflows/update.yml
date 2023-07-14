@@ -20,8 +20,7 @@ jobs:
       - id: dirty
         name: Check if dirty
         run: |
-          Diff=$(git diff --stat)
-          if [ -z "$Diff"]; then
+          if [[ -z $(git status -s) ]]; then
             echo "Dirty=false" >>"$GITHUB_ENV"
           else
             echo "Dirty=true" >>"$GITHUB_ENV"
