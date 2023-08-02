@@ -22,9 +22,9 @@ jobs:
         run: |
           git status
           if [[ -z $(git status -s) ]]; then
-            echo "Dirty=false" >>"$GITHUB_ENV"
+            echo "Dirty=false" >>"$GITHUB_OUTPUT"
           else
-            echo "Dirty=true" >>"$GITHUB_ENV"
+            echo "Dirty=true" >>"$GITHUB_OUTPUT"
           fi
       - run: |
           echo "Dirty: ${{ steps.dirty.outputs.Dirty }}"
