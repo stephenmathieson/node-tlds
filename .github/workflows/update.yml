@@ -26,6 +26,7 @@ jobs:
           else
             echo "Dirty=true" >>"$GITHUB_ENV"
           fi
+      - run: echo "Dirty: ${{ steps.dirty.outputs.Dirty }}"
       - if: steps.dirty.outputs.Dirty == 'true'
         name: Ensure tests still pass
         run: npm test
