@@ -63,6 +63,5 @@ jobs:
           git tag -a "${{ steps.metadata.outputs.NextVersion }}" HEAD -m "Release v${{ steps.metadata.outputs.NextVersion }}"
           git push origin master --tags
 
+          npm config set "//registry.npmjs.org/:_authToken" "${{ secrets.NPM_TOKEN }}"
           npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
