@@ -1,3 +1,7 @@
+# v1.241.0 / 2023-08-02
+
+- Update list
+
 # 1.240.0 / 2023-06-15
 
 - Update list
@@ -788,7 +792,7 @@
 # 1.47.0 / 2015-06-07
 
 - index: update list from ICANN
-- update: remove prefixed \\n char
+- update: remove prefixed \n char
 
 # 1.46.0 / 2015-06-04
 
