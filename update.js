@@ -5,7 +5,7 @@ const fs = require("fs");
 
 const update = async () => {
   const { body } = await got(
-    "http://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+    "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
   );
 
   const data = body
